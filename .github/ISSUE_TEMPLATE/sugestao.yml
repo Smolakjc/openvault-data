@@ -1,0 +1,91 @@
+name: 💡 Sugestão de Software Open Source
+description: Sugira um novo software de código aberto para entrar no catálogo
+title: "[Sugestão]: "
+labels: ["sugestão", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar a enriquecer o catálogo do **OpenVault**! 
+        Preencha os campos abaixo com o que você souber. Nós cuidaremos da validação e inclusão no `apps.json`.
+
+  - type: input
+    id: app_name
+    attributes:
+      label: Nome do Software
+      description: Qual é o nome oficial do projeto Open Source?
+      placeholder: "Ex: Krita, Blender, Kdenlive..."
+    validations:
+      required: true
+
+  - type: input
+    id: replaces
+    attributes:
+      label: Qual software pago ou proprietário ele substitui?
+      description: Diga quais programas populares ele pode substituir ou para qual tarefa ele serve.
+      placeholder: "Ex: Adobe Photoshop, Premiere Pro, Notion..."
+    validations:
+      required: true
+
+  - type: input
+    id: repository
+    attributes:
+      label: Link do Repositório (Código-fonte)
+      description: URL no GitHub, GitLab, Codeberg ou onde o código é mantido.
+      placeholder: "https://github.com/usuario/projeto"
+    validations:
+      required: true
+
+  - type: input
+    id: site
+    attributes:
+      label: Site Oficial
+      description: URL da página oficial do software (se houver).
+      placeholder: "https://exemplo.org"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Categoria Principal
+      description: Em qual área ele melhor se encaixa?
+      options:
+        - "design (Pintura, Vetores, Modelagem 3D, Edição de Imagem)"
+        - "video (Edição de Vídeo, Streaming, Gravação)"
+        - "audio (DAW, Gravação, Edição de Áudio, Música)"
+        - "dev (IDEs, Engines de Jogos, Editores de Código)"
+        - "produtividade (Notas, Escritório, Gestão de Tarefas)"
+        - "utilitarios (Compactadores, Senhas, Otimizadores, Players)"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Plataformas Suportadas
+      description: Marque as plataformas onde você sabe que ele roda.
+      options:
+        - label: Windows
+        - label: Linux
+        - label: macOS
+        - label: Web / Navegador
+        - label: Android / iOS
+
+  - type: textarea
+    id: extra_info
+    attributes:
+      label: Por que você recomenda esse programa?
+      description: Conte um pouco da sua experiência com ele ou detalhes que ache relevantes.
+      placeholder: "Uso há 2 anos para editar meus vídeos no YouTube e nunca mais precisei de software pago..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Verificação Básica
+      options:
+        - label: Confirmo que o software possui uma licença de código aberto (Open Source) e não é apenas um freeware fechado.
+          required: true
+
