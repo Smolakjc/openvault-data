@@ -57,6 +57,7 @@ body:
         - "dev (IDEs, Engines de Jogos, Editores de Código)"
         - "produtividade (Notas, Escritório, Gestão de Tarefas)"
         - "utilitarios (Compactadores, Senhas, Otimizadores, Players)"
+        - "outros (Projetos que não se encaixam nas categorias acima)"
     validations:
       required: true
 
