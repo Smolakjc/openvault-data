@@ -440,5 +440,33 @@
       "edicao",
       "corte"
     ]
+  },
+  {
+    "id": "freecad",
+    "name": "FreeCAD",
+    "description": "Modelador 3D paramétrico aberto para engenharia mecânica, design de peças e arquitetura BIM.",
+    "category": "outros",
+    "replaces": [
+      "AutoCAD",
+      "SolidWorks",
+      "Autodesk Fusion 360",
+      "Inventor"
+    ],
+    "license": "LGPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.freecad.org",
+    "repository": "https://github.com/FreeCAD/FreeCAD",
+    "tags": [
+      "cad",
+      "3d",
+      "engenharia",
+      "arquitetura",
+      "modelagem parametrica",
+      "impressao 3d"
+    ]
   }
 ]
