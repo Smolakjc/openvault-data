@@ -419,29 +419,6 @@
     ]
   },
   {
-    "id": "shotcut",
-    "name": "Shotcut",
-    "description": "Nova descrição do Shotcut editado com sucesso.",
-    "category": "outros",
-    "replaces": [
-      "Premiere Pro",
-      "Vegas Pro"
-    ],
-    "license": "GPL-3.0",
-    "platforms": [
-      "Windows",
-      "Linux",
-      "macOS"
-    ],
-    "site": "https://shotcut.org",
-    "repository": "https://github.com/mltframework/shotcut",
-    "tags": [
-      "video",
-      "edicao",
-      "corte"
-    ]
-  },
-  {
     "id": "freecad",
     "name": "FreeCAD",
     "description": "Modelador 3D paramétrico aberto para engenharia mecânica, design de peças e arquitetura BIM.",
