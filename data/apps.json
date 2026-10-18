@@ -1,11 +1,14 @@
 [
   {
-    "id": "shotcut",
-    "name": "Shotcut",
-    "description": "desc",
-    "category": "video",
+    "id": "krita",
+    "name": "Krita",
+    "description": "Programa profissional de pintura digital, ilustração e animação 2D gratuito e de código aberto.",
+    "category": "design",
     "replaces": [
-      "Vegas"
+      "Adobe Photoshop",
+      "Clip Studio Paint",
+      "Procreate",
+      "Corel Painter"
     ],
     "license": "GPL-3.0",
     "platforms": [
@@ -13,11 +16,406 @@
       "Linux",
       "macOS"
     ],
-    "site": "http",
-    "repository": "http",
+    "site": "https://krita.org",
+    "repository": "https://invent.kde.org/graphics/krita",
     "tags": [
-      "shotcut",
-      "video"
+      "pintura",
+      "ilustracao",
+      "desenho",
+      "arte digital",
+      "animacao 2d",
+      "imagem"
+    ]
+  },
+  {
+    "id": "inkscape",
+    "name": "Inkscape",
+    "description": "Editor de gráficos vetoriais completo para ilustrações, logotipos, ícones e diagramas em SVG.",
+    "category": "design",
+    "replaces": [
+      "Adobe Illustrator",
+      "CorelDRAW",
+      "Affinity Designer"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://inkscape.org",
+    "repository": "https://gitlab.com/inkscape/inkscape",
+    "tags": [
+      "vetor",
+      "svg",
+      "ilustracao",
+      "design grafico",
+      "logotipo",
+      "vetorial"
+    ]
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP",
+    "description": "Editor avançado de imagens para retoque fotográfico, composição gráfica e criação de artes.",
+    "category": "design",
+    "replaces": [
+      "Adobe Photoshop",
+      "Affinity Photo",
+      "PaintShop Pro"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.gimp.org",
+    "repository": "https://gitlab.gnome.org/GNOME/gimp",
+    "tags": [
+      "foto",
+      "edicao de imagem",
+      "manipulacao",
+      "design",
+      "photoshop",
+      "retoque"
+    ]
+  },
+  {
+    "id": "kdenlive",
+    "name": "Kdenlive",
+    "description": "Editor de vídeo não-linear multifaixa com suporte a efeitos, transições, proxy e correção de cor.",
+    "category": "video",
+    "replaces": [
+      "Adobe Premiere Pro",
+      "Sony Vegas",
+      "Final Cut Pro",
+      "Camtasia",
+      "CapCut"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://kdenlive.org",
+    "repository": "https://invent.kde.org/multimedia/kdenlive",
+    "tags": [
+      "edicao de video",
+      "montagem",
+      "efeitos",
+      "renderizacao",
+      "cinema",
+      "youtube"
+    ]
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "description": "Suíte completa de criação 3D para modelagem, animação, simulação, renderização e edição de vídeo.",
+    "category": "video",
+    "replaces": [
+      "Autodesk Maya",
+      "3ds Max",
+      "Cinema 4D",
+      "ZBrush",
+      "Adobe After Effects"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.blender.org",
+    "repository": "https://projects.blender.org/blender/blender",
+    "tags": [
+      "3d",
+      "modelagem",
+      "animacao",
+      "vfx",
+      "render",
+      "escultura",
+      "motion"
+    ]
+  },
+  {
+    "id": "obs-studio",
+    "name": "OBS Studio",
+    "description": "Software gratuito e aberto para gravação de vídeo e transmissão ao vivo de alto desempenho.",
+    "category": "video",
+    "replaces": [
+      "XSplit",
+      "Streamlabs Desktop",
+      "Bandicam",
+      "Camtasia"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://obsproject.com",
+    "repository": "https://github.com/obsproject/obs-studio",
+    "tags": [
+      "live",
+      "streaming",
+      "gravacao de tela",
+      "captura",
+      "broadcast",
+      "twitch"
+    ]
+  },
+  {
+    "id": "audacity",
+    "name": "Audacity",
+    "description": "Gravador e editor de áudio multifaixa fácil de usar para podcasts, locuções e pós-produção.",
+    "category": "audio",
+    "replaces": [
+      "Adobe Audition",
+      "Sound Forge",
+      "WavePad"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.audacityteam.org",
+    "repository": "https://github.com/audacity/audacity",
+    "tags": [
+      "audio",
+      "som",
+      "podcast",
+      "gravacao",
+      "edicao de audio",
+      "mixagem"
+    ]
+  },
+  {
+    "id": "ardour",
+    "name": "Ardour",
+    "description": "Estação de trabalho de áudio digital (DAW) completa para gravação, edição e mixagem musical.",
+    "category": "audio",
+    "replaces": [
+      "Pro Tools",
+      "FL Studio",
+      "Ableton Live",
+      "Logic Pro",
+      "Cubase"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://ardour.org",
+    "repository": "https://github.com/Ardour/ardour",
+    "tags": [
+      "daw",
+      "musica",
+      "producao musical",
+      "midi",
+      "mixagem",
+      "masterizacao"
+    ]
+  },
+  {
+    "id": "vscodium",
+    "name": "VSCodium",
+    "description": "Distribuição binária livre do editor VS Code sem telemetria ou rastreamento proprietário.",
+    "category": "dev",
+    "replaces": [
+      "Visual Studio",
+      "Sublime Text",
+      "WebStorm",
+      "PhpStorm"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://vscodium.com",
+    "repository": "https://github.com/VSCodium/vscodium",
+    "tags": [
+      "ide",
+      "editor de codigo",
+      "programacao",
+      "desenvolvimento",
+      "vscode"
+    ]
+  },
+  {
+    "id": "godot",
+    "name": "Godot Engine",
+    "description": "Motor de criação de jogos 2D e 3D multiplataforma, leve e totalmente aberto.",
+    "category": "dev",
+    "replaces": [
+      "Unity",
+      "Unreal Engine",
+      "GameMaker"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://godotengine.org",
+    "repository": "https://github.com/godotengine/godot",
+    "tags": [
+      "gamedev",
+      "jogos",
+      "engine",
+      "2d",
+      "3d",
+      "programacao"
+    ]
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "description": "Suíte de escritório completa para textos, planilhas, apresentações, bancos de dados e fórmulas.",
+    "category": "produtividade",
+    "replaces": [
+      "Microsoft Office",
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Google Docs"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.libreoffice.org",
+    "repository": "https://git.libreoffice.org/core",
+    "tags": [
+      "office",
+      "texto",
+      "planilha",
+      "apresentacao",
+      "documentos",
+      "word",
+      "excel"
+    ]
+  },
+  {
+    "id": "logseq",
+    "name": "Logseq",
+    "description": "Plataforma de gestão de conhecimento pessoal, notas conectadas, tarefas e diário com foco local.",
+    "category": "produtividade",
+    "replaces": [
+      "Notion",
+      "Evernote",
+      "Roam Research",
+      "OneNote"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://logseq.com",
+    "repository": "https://github.com/logseq/logseq",
+    "tags": [
+      "notas",
+      "markdown",
+      "organizacao",
+      "segundo cerebro",
+      "estudo",
+      "wiki"
+    ]
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "description": "Base de conhecimento pessoal em arquivos Markdown locais com grafo de conexões e plugins.",
+    "category": "produtividade",
+    "replaces": [
+      "Notion",
+      "Evernote",
+      "OneNote",
+      "Bear"
+    ],
+    "license": "EULA (Gratuito / Ecossistema Comunitário)",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://obsidian.md",
+    "repository": "https://github.com/obsidianmd",
+    "tags": [
+      "notas",
+      "markdown",
+      "conhecimento",
+      "organizacao",
+      "estudos"
+    ]
+  },
+  {
+    "id": "bitwarden",
+    "name": "Bitwarden",
+    "description": "Gerenciador de senhas seguro com criptografia ponta a ponta e sincronização multiplataforma.",
+    "category": "utilitarios",
+    "replaces": [
+      "1Password",
+      "LastPass",
+      "Dashlane",
+      "Keeper"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://bitwarden.com",
+    "repository": "https://github.com/bitwarden/clients",
+    "tags": [
+      "senhas",
+      "seguranca",
+      "privacidade",
+      "autenticacao",
+      "cofre"
+    ]
+  },
+  {
+    "id": "peazip",
+    "name": "PeaZip",
+    "description": "Compactador e extrator de arquivos gratuito com suporte a mais de 200 formatos (ZIP, RAR, 7Z).",
+    "category": "utilitarios",
+    "replaces": [
+      "WinRAR",
+      "WinZip"
+    ],
+    "license": "LGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://peazip.github.io",
+    "repository": "https://github.com/peazip/PeaZip",
+    "tags": [
+      "compactador",
+      "zip",
+      "rar",
+      "7zip",
+      "arquivos",
+      "compressao"
     ]
   }
 ]
