@@ -421,8 +421,8 @@
   {
     "id": "shotcut",
     "name": "Shotcut",
-    "description": "Editor de vídeo multiplataforma de código aberto.",
-    "category": "video",
+    "description": "Nova descrição do Shotcut editado com sucesso.",
+    "category": "outros",
     "replaces": [
       "Premiere Pro",
       "Vegas Pro"
