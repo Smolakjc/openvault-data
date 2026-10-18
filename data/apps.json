@@ -417,5 +417,28 @@
       "arquivos",
       "compressao"
     ]
+  },
+  {
+    "id": "shotcut",
+    "name": "Shotcut",
+    "description": "Editor de vídeo multiplataforma de código aberto.",
+    "category": "video",
+    "replaces": [
+      "Premiere Pro",
+      "Vegas Pro"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://shotcut.org",
+    "repository": "https://github.com/mltframework/shotcut",
+    "tags": [
+      "video",
+      "edicao",
+      "corte"
+    ]
   }
 ]
