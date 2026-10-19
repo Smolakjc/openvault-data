@@ -6,15 +6,20 @@
     "category": "design",
     "replaces": [
       "Adobe Photoshop",
+      "Photoshop",
       "Clip Studio Paint",
       "Procreate",
-      "Corel Painter"
+      "Corel Painter",
+      "Paint Tool SAI",
+      "MediBang Paint",
+      "Autodesk SketchBook"
     ],
     "license": "GPL-3.0",
     "platforms": [
       "Windows",
       "Linux",
-      "macOS"
+      "macOS",
+      "Android"
     ],
     "site": "https://krita.org",
     "repository": "https://invent.kde.org/graphics/krita",
@@ -24,7 +29,12 @@
       "desenho",
       "arte digital",
       "animacao 2d",
-      "imagem"
+      "imagem",
+      "pinceis",
+      "quadrinhos",
+      "manga",
+      "concept art",
+      "textura"
     ]
   },
   {
@@ -34,8 +44,12 @@
     "category": "design",
     "replaces": [
       "Adobe Illustrator",
+      "Illustrator",
       "CorelDRAW",
-      "Affinity Designer"
+      "Affinity Designer",
+      "Vectornator",
+      "Gravit Designer",
+      "Sketch"
     ],
     "license": "GPL-2.0",
     "platforms": [
@@ -51,7 +65,12 @@
       "ilustracao",
       "design grafico",
       "logotipo",
-      "vetorial"
+      "vetorial",
+      "icone",
+      "diagrama",
+      "tipografia",
+      "impressao",
+      "corte laser"
     ]
   },
   {
@@ -61,8 +80,12 @@
     "category": "design",
     "replaces": [
       "Adobe Photoshop",
+      "Photoshop",
       "Affinity Photo",
-      "PaintShop Pro"
+      "PaintShop Pro",
+      "Pixelmator Pro",
+      "Acorn",
+      "Photopea"
     ],
     "license": "GPL-3.0",
     "platforms": [
@@ -78,7 +101,720 @@
       "manipulacao",
       "design",
       "photoshop",
-      "retoque"
+      "retoque",
+      "raster",
+      "camadas",
+      "banner",
+      "thumbnail",
+      "recorte"
+    ]
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "description": "Plataforma web colaborativa de design de interfaces (UI/UX) e prototipagem com suporte a CSS Grid.",
+    "category": "design",
+    "replaces": [
+      "Figma",
+      "Adobe XD",
+      "Sketch",
+      "InVision",
+      "Framer",
+      "Lunacy",
+      "Zeplin"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://penpot.app",
+    "repository": "https://github.com/penpot/penpot",
+    "tags": [
+      "ui",
+      "ux",
+      "interface",
+      "prototipagem",
+      "wireframe",
+      "web design",
+      "figma",
+      "design system",
+      "colaborativo",
+      "svg",
+      "layout"
+    ]
+  },
+  {
+    "id": "darktable",
+    "name": "Darktable",
+    "description": "Estúdio virtual de fotografia e revelação RAW não-destrutiva para gerenciamento e correção de cor.",
+    "category": "design",
+    "replaces": [
+      "Adobe Lightroom",
+      "Lightroom Classic",
+      "Capture One",
+      "DxO PhotoLab",
+      "Luminar Neo",
+      "ON1 Photo RAW",
+      "Apple Aperture"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.darktable.org",
+    "repository": "https://github.com/darktable-org/darktable",
+    "tags": [
+      "fotografia",
+      "raw",
+      "lightroom",
+      "revelacao digital",
+      "cor",
+      "catalogo de fotos",
+      "edicao nao destrutiva",
+      "lentes",
+      "camera"
+    ]
+  },
+  {
+    "id": "rawtherapee",
+    "name": "RawTherapee",
+    "description": "Processador avançado de fotografias RAW com controle profundo de cores, nitidez e redução de ruído.",
+    "category": "design",
+    "replaces": [
+      "Adobe Lightroom",
+      "Adobe Camera Raw",
+      "Capture One",
+      "DxO PhotoLab",
+      "Exposure X"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.rawtherapee.com",
+    "repository": "https://github.com/Beep6581/RawTherapee",
+    "tags": [
+      "raw",
+      "fotografia",
+      "tratamento de foto",
+      "cor",
+      "nitidez",
+      "camera raw",
+      "revelacao",
+      "histograma",
+      "lote"
+    ]
+  },
+  {
+    "id": "scribus",
+    "name": "Scribus",
+    "description": "Programa de editoração eletrônica para diagramar livros, revistas, jornais e PDFs para gráfica.",
+    "category": "design",
+    "replaces": [
+      "Adobe InDesign",
+      "InDesign",
+      "Affinity Publisher",
+      "QuarkXPress",
+      "Microsoft Publisher"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.scribus.net",
+    "repository": "https://github.com/scribusproject/scribus",
+    "tags": [
+      "diagramacao",
+      "editoracao",
+      "indesign",
+      "revista",
+      "livro",
+      "jornal",
+      "cmyk",
+      "grafica",
+      "pdf",
+      "publicacao",
+      "dtp"
+    ]
+  },
+  {
+    "id": "libresprite",
+    "name": "LibreSprite",
+    "description": "Editor de pixel art e criação de sprites animados com suporte a camadas, paletas e linha do tempo.",
+    "category": "design",
+    "replaces": [
+      "Aseprite",
+      "Pyxel Edit",
+      "Pro Motion NG",
+      "GraphicsGale",
+      "Piskel"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://libresprite.github.io",
+    "repository": "https://github.com/LibreSprite/LibreSprite",
+    "tags": [
+      "pixel art",
+      "sprites",
+      "gamedev",
+      "animacao 2d",
+      "retro",
+      "8bit",
+      "16bit",
+      "tileset",
+      "aseprite"
+    ]
+  },
+  {
+    "id": "pixelorama",
+    "name": "Pixelorama",
+    "description": "Estúdio completo de pixel art 2D feito na Godot com animação quadro a quadro e criação de tilesets.",
+    "category": "design",
+    "replaces": [
+      "Aseprite",
+      "Pyxel Edit",
+      "GraphicsGale",
+      "Piskel",
+      "Pixaki"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://orama-interactive.itch.io/pixelorama",
+    "repository": "https://github.com/Orama-Interactive/Pixelorama",
+    "tags": [
+      "pixel art",
+      "spritesheet",
+      "animacao",
+      "jogos 2d",
+      "tileset",
+      "desenho pixel",
+      "aseprite"
+    ]
+  },
+  {
+    "id": "pinta",
+    "name": "Pinta",
+    "description": "Editor de imagens e desenho leve e intuitivo para edições rápidas, camadas, ajustes e efeitos.",
+    "category": "design",
+    "replaces": [
+      "Paint.NET",
+      "Microsoft Paint",
+      "Photoshop Express",
+      "Pixelmator",
+      "PhotoFiltre"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.pinta-project.com",
+    "repository": "https://github.com/PintaProject/Pinta",
+    "tags": [
+      "paint",
+      "edicao rapida",
+      "imagem",
+      "desenho",
+      "camadas",
+      "leve",
+      "recorte",
+      "anotacao"
+    ]
+  },
+  {
+    "id": "mypaint",
+    "name": "MyPaint",
+    "description": "Aplicativo de pintura digital ágil com tela infinita e simulação realista de pincéis tradicionais.",
+    "category": "design",
+    "replaces": [
+      "Corel Painter",
+      "Rebelle",
+      "ArtRage",
+      "Paint Tool SAI",
+      "Procreate",
+      "Fresh Paint"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://mypaint.app",
+    "repository": "https://github.com/mypaint/mypaint",
+    "tags": [
+      "pintura digital",
+      "mesa digitalizadora",
+      "aquarela",
+      "oleo",
+      "tela infinita",
+      "esboco",
+      "sketch",
+      "ilustracao"
+    ]
+  },
+  {
+    "id": "upscayl",
+    "name": "Upscayl",
+    "description": "Aumentador de resolução de imagens (upscaler) com inteligência artificial rodando localmente na GPU.",
+    "category": "design",
+    "replaces": [
+      "Topaz Gigapixel AI",
+      "Topaz Photo AI",
+      "Magnific AI",
+      "Let's Enhance",
+      "Remini",
+      "VanceAI"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://upscayl.org",
+    "repository": "https://github.com/upscayl/upscayl",
+    "tags": [
+      "upscale",
+      "ia",
+      "inteligencia artificial",
+      "resolucao",
+      "4k",
+      "restauracao de foto",
+      "nitidez",
+      "melhorar imagem"
+    ]
+  },
+  {
+    "id": "fontforge",
+    "name": "FontForge",
+    "description": "Editor completo de tipografia para criar, editar e converter fontes TrueType, OpenType, WOFF e SVG.",
+    "category": "design",
+    "replaces": [
+      "Glyphs",
+      "FontLab",
+      "RoboFont",
+      "FontCreator",
+      "TypeTool"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://fontforge.org",
+    "repository": "https://github.com/fontforge/fontforge",
+    "tags": [
+      "fontes",
+      "tipografia",
+      "ttf",
+      "otf",
+      "woff",
+      "caligrafia",
+      "design de fontes",
+      "glifos",
+      "vetor"
+    ]
+  },
+  {
+    "id": "digikam",
+    "name": "digiKam",
+    "description": "Gerenciador profissional de bibliotecas de fotos com reconhecimento facial por IA e edição RAW.",
+    "category": "design",
+    "replaces": [
+      "Adobe Bridge",
+      "Adobe Lightroom",
+      "ACDSee Photo Studio",
+      "Photo Mechanic",
+      "Mylio Photos"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.digikam.org",
+    "repository": "https://invent.kde.org/graphics/digikam",
+    "tags": [
+      "organizacao de fotos",
+      "catalogo",
+      "metadados",
+      "exif",
+      "raw",
+      "reconhecimento facial",
+      "galeria",
+      "fotografia"
+    ]
+  },
+  {
+    "id": "immich",
+    "name": "Immich",
+    "description": "Solução auto-hospedada de alto desempenho para backup automático de fotos e vídeos com busca por IA.",
+    "category": "design",
+    "replaces": [
+      "Google Photos",
+      "Google Fotos",
+      "Apple iCloud Photos",
+      "Amazon Photos",
+      "OneDrive Photos",
+      "Synology Photos"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://immich.app",
+    "repository": "https://github.com/immich-app/immich",
+    "tags": [
+      "fotos",
+      "backup de fotos",
+      "galeria",
+      "nuvem pessoal",
+      "self-hosted",
+      "google fotos",
+      "reconhecimento facial",
+      "memorias",
+      "videos"
+    ]
+  },
+  {
+    "id": "graphite",
+    "name": "Graphite",
+    "description": "Editor gráfico procedural 2D vetorial e raster baseado em nós para design não-destrutivo.",
+    "category": "design",
+    "replaces": [
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Affinity Designer",
+      "Cavalry"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://graphite.rs",
+    "repository": "https://github.com/GraphiteEditor/Graphite",
+    "tags": [
+      "procedural",
+      "node-based",
+      "vetor",
+      "svg",
+      "design grafico",
+      "nao destrutivo",
+      "arte generativa",
+      "ilustracao"
+    ]
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "description": "Quadro branco virtual colaborativo para desenhar diagramas, wireframes e fluxos com traço manual.",
+    "category": "design",
+    "replaces": [
+      "Miro",
+      "Mural",
+      "FigJam",
+      "Microsoft Whiteboard",
+      "Whimsical",
+      "Lucidspark"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://excalidraw.com",
+    "repository": "https://github.com/excalidraw/excalidraw",
+    "tags": [
+      "whiteboard",
+      "quadro branco",
+      "diagrama",
+      "wireframe",
+      "arquitetura",
+      "esboco",
+      "brainstorming",
+      "colaboracao",
+      "fluxograma"
+    ]
+  },
+  {
+    "id": "drawio",
+    "name": "Draw.io (diagrams.net)",
+    "description": "Criador completo de fluxogramas, diagramas de arquitetura, UML, banco de dados, BPMN e redes.",
+    "category": "design",
+    "replaces": [
+      "Microsoft Visio",
+      "Lucidchart",
+      "Creately",
+      "OmniGraffle",
+      "Gliffy",
+      "Miro"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.diagrams.net",
+    "repository": "https://github.com/jgraph/drawio",
+    "tags": [
+      "fluxograma",
+      "diagrama",
+      "uml",
+      "visio",
+      "bpmn",
+      "arquitetura",
+      "organograma",
+      "mapa mental",
+      "engenharia de software"
+    ]
+  },
+  {
+    "id": "blockbench",
+    "name": "Blockbench",
+    "description": "Editor de modelagem 3D low-poly com texturização pixel art, rigging e animação para jogos.",
+    "category": "design",
+    "replaces": [
+      "Maya LT",
+      "Crocotile 3D",
+      "Qubicle",
+      "MagicaVoxel",
+      "PicoCAD"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.blockbench.net",
+    "repository": "https://github.com/JannisX11/blockbench",
+    "tags": [
+      "3d",
+      "low-poly",
+      "pixel art",
+      "minecraft",
+      "gamedev",
+      "modelagem 3d",
+      "texturizacao",
+      "animacao 3d",
+      "voxel"
+    ]
+  },
+  {
+    "id": "material-maker",
+    "name": "Material Maker",
+    "description": "Ferramenta procedural baseada em nós para criar texturas e materiais PBR 3D e pintar modelos.",
+    "category": "design",
+    "replaces": [
+      "Adobe Substance 3D Designer",
+      "Adobe Substance 3D Painter",
+      "Quixel Mixer",
+      "Filter Forge",
+      "Mari"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.materialmaker.org",
+    "repository": "https://github.com/RodZill4/material-maker",
+    "tags": [
+      "texturas",
+      "pbr",
+      "materiais 3d",
+      "procedural",
+      "shaders",
+      "substance designer",
+      "gamedev",
+      "3d"
+    ]
+  },
+  {
+    "id": "meshroom",
+    "name": "Meshroom (AliceVision)",
+    "description": "Software de fotogrametria 3D baseada em nós para reconstruir modelos 3D reais a partir de fotos.",
+    "category": "design",
+    "replaces": [
+      "RealityCapture",
+      "Agisoft Metashape",
+      "Autodesk ReCap",
+      "Pix4D",
+      "Polycam",
+      "3DF Zephyr"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "site": "https://alicevision.org",
+    "repository": "https://github.com/alicevision/Meshroom",
+    "tags": [
+      "fotogrametria",
+      "scanner 3d",
+      "reconstrucao 3d",
+      "malha 3d",
+      "nuvem de pontos",
+      "textura",
+      "vfx"
+    ]
+  },
+  {
+    "id": "meshlab",
+    "name": "MeshLab",
+    "description": "Sistema avançado para processamento, limpeza, reparo, inspeção e conversão de malhas 3D.",
+    "category": "design",
+    "replaces": [
+      "Geomagic Wrap",
+      "Autodesk Netfabb",
+      "Meshmixer",
+      "ZBrush Decimation Master"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.meshlab.net",
+    "repository": "https://github.com/cnr-isti-vclab/meshlab",
+    "tags": [
+      "malha 3d",
+      "stl",
+      "obj",
+      "impressao 3d",
+      "reparo 3d",
+      "nuvem de pontos",
+      "topologia",
+      "escaneamento 3d"
+    ]
+  },
+  {
+    "id": "photoprism",
+    "name": "PhotoPrism",
+    "description": "Galeria de fotos auto-hospedada com IA para classificação facial, busca por objetos e mapas.",
+    "category": "design",
+    "replaces": [
+      "Google Photos",
+      "Google Fotos",
+      "Apple iCloud Photos",
+      "Amazon Photos",
+      "Flickr Pro",
+      "Adobe Lightroom Web"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.photoprism.app",
+    "repository": "https://github.com/photoprism/photoprism",
+    "tags": [
+      "fotos",
+      "galeria",
+      "ia",
+      "reconhecimento facial",
+      "nuvem pessoal",
+      "albuns",
+      "raw",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "photogimp",
+    "name": "PhotoGIMP",
+    "description": "Patch que adapta a interface, pincéis e atalhos de teclado do GIMP para o padrão do Photoshop.",
+    "category": "design",
+    "replaces": [
+      "Adobe Photoshop",
+      "Photoshop CC",
+      "Adobe Photoshop Elements"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://github.com/Diolinux/PhotoGIMP",
+    "repository": "https://github.com/Diolinux/PhotoGIMP",
+    "tags": [
+      "photoshop",
+      "gimp",
+      "edicao de imagem",
+      "design",
+      "atalhos",
+      "manipulacao de foto",
+      "interface"
+    ]
+  },
+  {
+    "id": "armorpaint",
+    "name": "ArmorPaint",
+    "description": "Software de pintura 3D de texturas PBR baseado em nós com renderização ray-tracing na GPU.",
+    "category": "design",
+    "replaces": [
+      "Adobe Substance 3D Painter",
+      "Substance Painter",
+      "Foundry Mari",
+      "3DCoat",
+      "Quixel Mixer"
+    ],
+    "license": "Zlib",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://armorpaint.org",
+    "repository": "https://github.com/armory3d/armortools",
+    "tags": [
+      "pintura 3d",
+      "texturas",
+      "pbr",
+      "substance painter",
+      "modelagem 3d",
+      "gamedev",
+      "shaders"
     ]
   },
   {
@@ -88,9 +824,13 @@
     "category": "video",
     "replaces": [
       "Adobe Premiere Pro",
+      "Premiere",
       "Sony Vegas",
+      "Vegas Pro",
       "Final Cut Pro",
+      "DaVinci Resolve Studio",
       "Camtasia",
+      "Wondershare Filmora",
       "CapCut"
     ],
     "license": "GPL-3.0",
@@ -107,7 +847,11 @@
       "efeitos",
       "renderizacao",
       "cinema",
-      "youtube"
+      "youtube",
+      "chroma key",
+      "legendas",
+      "color grading",
+      "corte"
     ]
   },
   {
@@ -117,10 +861,13 @@
     "category": "video",
     "replaces": [
       "Autodesk Maya",
-      "3ds Max",
+      "Autodesk 3ds Max",
       "Cinema 4D",
       "ZBrush",
-      "Adobe After Effects"
+      "Adobe After Effects",
+      "SideFX Houdini",
+      "Foundry Modo",
+      "Marvelous Designer"
     ],
     "license": "GPL-2.0",
     "platforms": [
@@ -137,7 +884,12 @@
       "vfx",
       "render",
       "escultura",
-      "motion"
+      "motion",
+      "cycles",
+      "eevee",
+      "grease pencil",
+      "rigging",
+      "cgi"
     ]
   },
   {
@@ -146,10 +898,14 @@
     "description": "Software gratuito e aberto para gravação de vídeo e transmissão ao vivo de alto desempenho.",
     "category": "video",
     "replaces": [
-      "XSplit",
+      "XSplit Broadcaster",
       "Streamlabs Desktop",
       "Bandicam",
-      "Camtasia"
+      "Camtasia",
+      "vMix",
+      "Wirecast",
+      "Mirillis Action!",
+      "Fraps"
     ],
     "license": "GPL-2.0",
     "platforms": [
@@ -165,7 +921,672 @@
       "gravacao de tela",
       "captura",
       "broadcast",
-      "twitch"
+      "twitch",
+      "youtube live",
+      "webcam",
+      "gameplay"
+    ]
+  },
+  {
+    "id": "shotcut",
+    "name": "Shotcut",
+    "description": "Editor de vídeo multiplataforma com suporte nativo a centenas de formatos, 4K e filtros avançados.",
+    "category": "video",
+    "replaces": [
+      "Adobe Premiere Pro",
+      "Vegas Pro",
+      "Wondershare Filmora",
+      "Movavi Video Editor",
+      "CapCut",
+      "Pinnacle Studio",
+      "iMovie"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.shotcut.org",
+    "repository": "https://github.com/mltframework/shotcut",
+    "tags": [
+      "edicao de video",
+      "4k",
+      "montagem",
+      "filtros de video",
+      "corte",
+      "timeline",
+      "youtube",
+      "transicoes"
+    ]
+  },
+  {
+    "id": "openshot",
+    "name": "OpenShot",
+    "description": "Editor de vídeo simples e intuitivo para cortes rápidos, legendas, transições e animações 3D.",
+    "category": "video",
+    "replaces": [
+      "Wondershare Filmora",
+      "Microsoft Clipchamp",
+      "Windows Movie Maker",
+      "iMovie",
+      "CapCut",
+      "Movavi",
+      "Camtasia"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.openshot.org",
+    "repository": "https://github.com/OpenShot/openshot-qt",
+    "tags": [
+      "edicao de video",
+      "iniciante",
+      "cortar video",
+      "transicoes",
+      "youtube",
+      "timeline",
+      "efeitos",
+      "montagem"
+    ]
+  },
+  {
+    "id": "olive",
+    "name": "Olive Video Editor",
+    "description": "Editor de vídeo não-linear focado em composições baseadas em nós e reprodução acelerada por GPU.",
+    "category": "video",
+    "replaces": [
+      "Adobe Premiere Pro",
+      "Final Cut Pro",
+      "Sony Vegas",
+      "DaVinci Resolve"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.olivevideoeditor.org",
+    "repository": "https://github.com/olive-editor/olive",
+    "tags": [
+      "edicao de video",
+      "node-based",
+      "composicao",
+      "gpu",
+      "cinema",
+      "premiere",
+      "color grading"
+    ]
+  },
+  {
+    "id": "natron",
+    "name": "Natron",
+    "description": "Software de composição visual (VFX) baseado em nós para chroma key, rotoscopia e motion tracking.",
+    "category": "video",
+    "replaces": [
+      "Foundry Nuke",
+      "Adobe After Effects",
+      "After Effects",
+      "Blackmagic Fusion Studio",
+      "Boris FX Silhouette",
+      "Mocha Pro"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://natrongithub.github.io",
+    "repository": "https://github.com/NatronGitHub/Natron",
+    "tags": [
+      "vfx",
+      "efeitos visuais",
+      "composicao",
+      "chroma key",
+      "rotoscopia",
+      "rastreamento",
+      "motion tracking",
+      "nuke",
+      "after effects",
+      "pos-producao"
+    ]
+  },
+  {
+    "id": "friction",
+    "name": "Friction",
+    "description": "Estúdio de motion graphics 2D vetorial e raster para criar animações fluidas de vídeo e UI.",
+    "category": "video",
+    "replaces": [
+      "Adobe After Effects",
+      "Apple Motion",
+      "Cavalry",
+      "Rive",
+      "LottieFiles"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://friction.graphics",
+    "repository": "https://github.com/friction2d/friction",
+    "tags": [
+      "motion graphics",
+      "motion design",
+      "animacao vetorial",
+      "after effects",
+      "keyframes",
+      "tipografia cinetica",
+      "svg",
+      "2d"
+    ]
+  },
+  {
+    "id": "opentoonz",
+    "name": "OpenToonz",
+    "description": "Software profissional de animação 2D digital e tradicional utilizado por estúdios como o Ghibli.",
+    "category": "video",
+    "replaces": [
+      "Toon Boom Harmony",
+      "TVPaint Animation",
+      "Moho Pro",
+      "Adobe Animate",
+      "CelAction2D",
+      "Clip Studio Paint EX"
+    ],
+    "license": "BSD-3-Clause",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://opentoonz.github.io",
+    "repository": "https://github.com/opentoonz/opentoonz",
+    "tags": [
+      "animacao 2d",
+      "anime",
+      "desenho animado",
+      "toon boom",
+      "estudios",
+      "quadro a quadro",
+      "rigging 2d",
+      "efeitos especiais"
+    ]
+  },
+  {
+    "id": "tahoma2d",
+    "name": "Tahoma2D",
+    "description": "Estúdio completo para animação 2D tradicional, digital e stop-motion com interface simplificada.",
+    "category": "video",
+    "replaces": [
+      "Toon Boom Harmony",
+      "Dragonframe",
+      "Adobe Animate",
+      "TVPaint Animation",
+      "Moho Pro"
+    ],
+    "license": "BSD-3-Clause",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://tahoma2d.org",
+    "repository": "https://github.com/tahoma2d/tahoma2d",
+    "tags": [
+      "animacao 2d",
+      "stop motion",
+      "desenho animado",
+      "quadro a quadro",
+      "webcam",
+      "camera",
+      "cartoon"
+    ]
+  },
+  {
+    "id": "synfig",
+    "name": "Synfig Studio",
+    "description": "Software de animação 2D vetorial com interpolação automática de quadros (tweening) e esqueletos.",
+    "category": "video",
+    "replaces": [
+      "Adobe Animate",
+      "Moho Pro",
+      "Reallusion Cartoon Animator",
+      "Toon Boom Harmony"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.synfig.org",
+    "repository": "https://github.com/synfig/synfig",
+    "tags": [
+      "animacao 2d",
+      "animacao vetorial",
+      "tweening",
+      "bones",
+      "esqueleto",
+      "cutout",
+      "personagens",
+      "desenho animado"
+    ]
+  },
+  {
+    "id": "pencil2d",
+    "name": "Pencil2D",
+    "description": "Programa leve e intuitivo para criar animações 2D tradicionais desenhadas à mão quadro a quadro.",
+    "category": "video",
+    "replaces": [
+      "FlipaClip",
+      "RoughAnimator",
+      "Adobe Animate",
+      "TVPaint",
+      "Toon Boom"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.pencil2d.org",
+    "repository": "https://github.com/pencil2d/pencil2d",
+    "tags": [
+      "animacao 2d",
+      "frame by frame",
+      "quadro a quadro",
+      "desenho tradicional",
+      "onion skin",
+      "cartoon",
+      "iniciante"
+    ]
+  },
+  {
+    "id": "handbrake",
+    "name": "HandBrake",
+    "description": "Transcodificador de vídeo de alta performance para converter e comprimir mídias (MP4, MKV, AV1).",
+    "category": "video",
+    "replaces": [
+      "Adobe Media Encoder",
+      "Apple Compressor",
+      "Wondershare UniConverter",
+      "Any Video Converter",
+      "Movavi Video Converter",
+      "FormatFactory"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://handbrake.fr",
+    "repository": "https://github.com/HandBrake/HandBrake",
+    "tags": [
+      "conversor de video",
+      "compressor",
+      "transcodificador",
+      "mp4",
+      "mkv",
+      "h264",
+      "h265",
+      "av1",
+      "reduzir tamanho",
+      "dvd",
+      "bluray"
+    ]
+  },
+  {
+    "id": "shutter-encoder",
+    "name": "Shutter Encoder",
+    "description": "Conversor profissional de vídeo, áudio e imagem com suporte a codecs de cinema (ProRes, DNxHD).",
+    "category": "video",
+    "replaces": [
+      "Adobe Media Encoder",
+      "Apple Compressor",
+      "Telestream Episode",
+      "Sorenson Squeeze",
+      "Wondershare UniConverter"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.shutterencoder.com",
+    "repository": "https://github.com/paulpacifico/shutter-encoder",
+    "tags": [
+      "encoder",
+      "conversor",
+      "prores",
+      "dnxhd",
+      "proxy",
+      "pos-producao",
+      "cortar video",
+      "legendas",
+      "broadcast"
+    ]
+  },
+  {
+    "id": "losslesscut",
+    "name": "LosslessCut",
+    "description": "Ferramenta ultrarrápida para cortar, dividir e juntar vídeos e áudios sem perda ou recodificação.",
+    "category": "video",
+    "replaces": [
+      "Bandicut",
+      "SolveigMM Video Splitter",
+      "QuickTime Pro",
+      "Boilsoft Video Splitter",
+      "Joyoshare VidiKit"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://mifi.no/losslesscut",
+    "repository": "https://github.com/mifi/lossless-cut",
+    "tags": [
+      "cortar video",
+      "sem perda",
+      "lossless",
+      "trim",
+      "juntar videos",
+      "extrair audio",
+      "rapido",
+      "remux"
+    ]
+  },
+  {
+    "id": "ffmpeg",
+    "name": "FFmpeg",
+    "description": "Framework multimídia definitivo para decodificar, codificar, converter, filtrar e transmitir mídia.",
+    "category": "video",
+    "replaces": [
+      "Adobe Media Encoder",
+      "AWS Elemental MediaConvert",
+      "Telestream Vantage",
+      "Wondershare UniConverter"
+    ],
+    "license": "LGPL-2.1",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://ffmpeg.org",
+    "repository": "https://git.ffmpeg.org/ffmpeg.git",
+    "tags": [
+      "cli",
+      "codec",
+      "conversao",
+      "streaming",
+      "transcode",
+      "video",
+      "audio",
+      "automacao",
+      "mp4",
+      "webm"
+    ]
+  },
+  {
+    "id": "subtitle-edit",
+    "name": "Subtitle Edit",
+    "description": "Editor completo de legendas para sincronizar, traduzir e gerar legendas automáticas com IA Whisper.",
+    "category": "video",
+    "replaces": [
+      "EZTitles",
+      "OOONA",
+      "MacCaption",
+      "Annotation Edit",
+      "Kapwing Subtitles",
+      "VEED.IO"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "site": "https://www.nikse.dk/subtitleedit",
+    "repository": "https://github.com/SubtitleEdit/subtitleedit",
+    "tags": [
+      "legendas",
+      "srt",
+      "sincronizacao",
+      "transcricao",
+      "whisper",
+      "traducao",
+      "closed caption",
+      "video"
+    ]
+  },
+  {
+    "id": "aegisub",
+    "name": "Aegisub",
+    "description": "Editor avançado de legendas para sincronização precisa em onda de áudio e estilização ASS/SSA.",
+    "category": "video",
+    "replaces": [
+      "EZTitles",
+      "Subtitle Workshop",
+      "MacCaption"
+    ],
+    "license": "BSD-3-Clause",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://aegisub.org",
+    "repository": "https://github.com/TypesettingTools/Aegisub",
+    "tags": [
+      "legendas",
+      "karaoke",
+      "typesetting",
+      "ass",
+      "ssa",
+      "srt",
+      "fansub",
+      "sincronia de audio"
+    ]
+  },
+  {
+    "id": "jellyfin",
+    "name": "Jellyfin",
+    "description": "Servidor de mídia pessoal para organizar e transmitir filmes, séries e músicas sem taxas ou contas.",
+    "category": "video",
+    "replaces": [
+      "Plex",
+      "Plex Pass",
+      "Emby Premiere",
+      "Infuse Pro",
+      "Kaleidescape",
+      "Netflix"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://jellyfin.org",
+    "repository": "https://github.com/jellyfin/jellyfin",
+    "tags": [
+      "media server",
+      "servidor de midia",
+      "streaming",
+      "filmes",
+      "series",
+      "tv",
+      "plex",
+      "home theater",
+      "dlna",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "peertube",
+    "name": "PeerTube",
+    "description": "Plataforma descentralizada e federada de hospedagem de vídeos e transmissões ao vivo via P2P.",
+    "category": "video",
+    "replaces": [
+      "YouTube",
+      "Vimeo",
+      "Wistia",
+      "Vidyard",
+      "Brightcove",
+      "Twitch"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://joinpeertube.org",
+    "repository": "https://github.com/Chocobozzz/PeerTube",
+    "tags": [
+      "hospedagem de video",
+      "youtube",
+      "federado",
+      "activitypub",
+      "streaming",
+      "live",
+      "p2p",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "owncast",
+    "name": "Owncast",
+    "description": "Servidor auto-hospedado de transmissão de vídeo ao vivo (live streaming) com chat integrado.",
+    "category": "video",
+    "replaces": [
+      "Twitch",
+      "YouTube Live",
+      "Vimeo Livestream",
+      "Restream",
+      "Dacast",
+      "Kick"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://owncast.online",
+    "repository": "https://github.com/owncast/owncast",
+    "tags": [
+      "live streaming",
+      "transmissao ao vivo",
+      "twitch",
+      "chat",
+      "rtmp",
+      "broadcast",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "glaxnimate",
+    "name": "Glaxnimate",
+    "description": "Programa rápido de animação vetorial 2D com suporte a Lottie, SVG animado, WebP e Kdenlive.",
+    "category": "video",
+    "replaces": [
+      "Adobe After Effects",
+      "LottieFiles",
+      "Rive",
+      "Adobe Animate",
+      "Haiku Animator"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://glaxnimate.mattbas.org",
+    "repository": "https://gitlab.com/mattbas/glaxnimate",
+    "tags": [
+      "animacao vetorial",
+      "lottie",
+      "svg",
+      "motion graphics",
+      "stickers",
+      "gif",
+      "2d",
+      "kdenlive"
+    ]
+  },
+  {
+    "id": "pitivi",
+    "name": "Pitivi",
+    "description": "Editor de vídeo não-linear com linha do tempo precisa, interface limpa e centenas de transições.",
+    "category": "video",
+    "replaces": [
+      "iMovie",
+      "Microsoft Clipchamp",
+      "Wondershare Filmora",
+      "CapCut",
+      "Movavi"
+    ],
+    "license": "LGPL-2.1",
+    "platforms": [
+      "Linux"
+    ],
+    "site": "https://www.pitivi.org",
+    "repository": "https://gitlab.gnome.org/GNOME/pitivi",
+    "tags": [
+      "edicao de video",
+      "linux",
+      "gnome",
+      "cortar video",
+      "montagem",
+      "timeline",
+      "efeitos"
+    ]
+  },
+  {
+    "id": "avidemux",
+    "name": "Avidemux",
+    "description": "Editor de vídeo leve projetado para cortes rápidos, aplicação de filtros e codificação direta.",
+    "category": "video",
+    "replaces": [
+      "Bandicut",
+      "QuickTime Pro",
+      "SolveigMM Video Splitter",
+      "CapCut"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://avidemux.sourceforge.net",
+    "repository": "https://github.com/mean00/avidemux2",
+    "tags": [
+      "cortar video",
+      "conversor de video",
+      "filtros",
+      "avi",
+      "mp4",
+      "mkv",
+      "edicao rapida"
     ]
   },
   {
@@ -176,7 +1597,10 @@
     "replaces": [
       "Adobe Audition",
       "Sound Forge",
-      "WavePad"
+      "WavePad",
+      "Ocenaudio",
+      "TwistedWave",
+      "Amadeus Pro"
     ],
     "license": "GPL-3.0",
     "platforms": [
@@ -192,7 +1616,40 @@
       "podcast",
       "gravacao",
       "edicao de audio",
-      "mixagem"
+      "mixagem",
+      "locucao",
+      "reducao de ruido",
+      "mp3",
+      "wav"
+    ]
+  },
+  {
+    "id": "tenacity",
+    "name": "Tenacity",
+    "description": "Gravador e editor de áudio multifaixa comunitário focado em privacidade e sem qualquer telemetria.",
+    "category": "audio",
+    "replaces": [
+      "Adobe Audition",
+      "Sound Forge",
+      "WavePad",
+      "Audacity"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://tenacityaudio.org",
+    "repository": "https://codeberg.org/tenacityteam/tenacity",
+    "tags": [
+      "edicao de audio",
+      "gravador de voz",
+      "podcast",
+      "privacidade",
+      "multifaixa",
+      "efeitos sonoros",
+      "masterizacao"
     ]
   },
   {
@@ -201,11 +1658,14 @@
     "description": "Estação de trabalho de áudio digital (DAW) completa para gravação, edição e mixagem musical.",
     "category": "audio",
     "replaces": [
+      "Avid Pro Tools",
       "Pro Tools",
       "FL Studio",
       "Ableton Live",
-      "Logic Pro",
-      "Cubase"
+      "Apple Logic Pro",
+      "Steinberg Cubase",
+      "PreSonus Studio One",
+      "Reaper"
     ],
     "license": "GPL-2.0",
     "platforms": [
@@ -221,7 +1681,632 @@
       "producao musical",
       "midi",
       "mixagem",
-      "masterizacao"
+      "masterizacao",
+      "estudio",
+      "vst",
+      "gravacao multipista"
+    ]
+  },
+  {
+    "id": "lmms",
+    "name": "LMMS",
+    "description": "Estação de produção musical (DAW) focada em criação de beats, sintetizadores, MIDI e samples.",
+    "category": "audio",
+    "replaces": [
+      "FL Studio",
+      "Ableton Live",
+      "Reason Studios",
+      "Apple GarageBand",
+      "Logic Pro",
+      "MPC Beats"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://lmms.io",
+    "repository": "https://github.com/LMMS/lmms",
+    "tags": [
+      "daw",
+      "beatmaker",
+      "fl studio",
+      "musica eletronica",
+      "sintetizador",
+      "piano roll",
+      "midi",
+      "vst",
+      "producao musical",
+      "samples"
+    ]
+  },
+  {
+    "id": "zrythm",
+    "name": "Zrythm",
+    "description": "DAW moderna e altamente automatizada para composição musical, plugins VST/CLAP, acordes e mixagem.",
+    "category": "audio",
+    "replaces": [
+      "Ableton Live",
+      "Bitwig Studio",
+      "FL Studio",
+      "Steinberg Cubase",
+      "Studio One"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.zrythm.org",
+    "repository": "https://gitlab.zrythm.org/zrythm/zrythm",
+    "tags": [
+      "daw",
+      "producao musical",
+      "automacao",
+      "midi",
+      "vst3",
+      "clap",
+      "sintetizador",
+      "mixagem",
+      "acordes"
+    ]
+  },
+  {
+    "id": "musescore",
+    "name": "MuseScore Studio",
+    "description": "Programa profissional de notação musical e criação de partituras com reprodução realista de orquestra.",
+    "category": "audio",
+    "replaces": [
+      "Finale",
+      "Avid Sibelius",
+      "Steinberg Dorico",
+      "Guitar Pro",
+      "PreSonus Notion"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://musescore.org",
+    "repository": "https://github.com/musescore/MuseScore",
+    "tags": [
+      "partitura",
+      "notacao musical",
+      "composicao",
+      "orquestra",
+      "arranjo",
+      "tablatura",
+      "midi",
+      "musicxml",
+      "teoria musical"
+    ]
+  },
+  {
+    "id": "tuxguitar",
+    "name": "TuxGuitar",
+    "description": "Editor e reprodutor de tablaturas e partituras multifaixa para guitarra, violão, baixo e bateria.",
+    "category": "audio",
+    "replaces": [
+      "Guitar Pro",
+      "Power Tab Editor",
+      "TablEdit",
+      "Songsterr Plus",
+      "Tonebridge"
+    ],
+    "license": "LGPL-2.1",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "site": "https://www.tuxguitar.app",
+    "repository": "https://github.com/helge17/tuxguitar",
+    "tags": [
+      "tablatura",
+      "guitarra",
+      "violao",
+      "baixo",
+      "guitar pro",
+      "cifras",
+      "partitura",
+      "midi",
+      "estudo musical"
+    ]
+  },
+  {
+    "id": "mixxx",
+    "name": "Mixxx",
+    "description": "Software completo para DJs com mixagem de 4 decks, controle por vinil/MIDI, efeitos e transmissão.",
+    "category": "audio",
+    "replaces": [
+      "Pioneer Rekordbox",
+      "Serato DJ Pro",
+      "Native Instruments Traktor Pro",
+      "VirtualDJ",
+      "Algoriddim djay Pro"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://mixxx.org",
+    "repository": "https://github.com/mixxxdj/mixxx",
+    "tags": [
+      "dj",
+      "mixagem ao vivo",
+      "controladora midi",
+      "bpm",
+      "festa",
+      "musica eletronica",
+      "vinil",
+      "radio online",
+      "icecast"
+    ]
+  },
+  {
+    "id": "surge-xt",
+    "name": "Surge XT",
+    "description": "Sintetizador híbrido virtual (VST3/CLAP) poderoso com múltiplas tabelas de ondas, filtros e efeitos.",
+    "category": "audio",
+    "replaces": [
+      "Xfer Serum",
+      "Native Instruments Massive",
+      "Sylenth1",
+      "Kilohearts Phase Plant",
+      "Spectrasonics Omnisphere",
+      "Vital Pro"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://surge-synthesizer.github.io",
+    "repository": "https://github.com/surge-synthesizer/surge",
+    "tags": [
+      "sintetizador",
+      "synth",
+      "vst",
+      "vst3",
+      "clap",
+      "wavetable",
+      "sound design",
+      "serum",
+      "producao musical"
+    ]
+  },
+  {
+    "id": "cardinal",
+    "name": "Cardinal",
+    "description": "Estúdio de sintetizador modular virtual em rack (Eurorack) com mais de mil módulos integrados.",
+    "category": "audio",
+    "replaces": [
+      "VCV Rack Pro",
+      "Softube Modular",
+      "Cherry Audio Voltage Modular",
+      "Native Instruments Reaktor"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://cardinal.kx.studio",
+    "repository": "https://github.com/DISTRHO/Cardinal",
+    "tags": [
+      "sintetizador modular",
+      "eurorack",
+      "vcv rack",
+      "sound design",
+      "vst",
+      "clap",
+      "experimental",
+      "sintese sonora"
+    ]
+  },
+  {
+    "id": "hydrogen",
+    "name": "Hydrogen",
+    "description": "Máquina de ritmos (drum machine) avançada e sequenciador de bateria acústica e eletrônica.",
+    "category": "audio",
+    "replaces": [
+      "Toontrack EZdrummer",
+      "Superior Drummer",
+      "XLN Audio Addictive Drums",
+      "Native Instruments Battery"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "http://www.hydrogen-music.org",
+    "repository": "https://github.com/hydrogen-music/hydrogen",
+    "tags": [
+      "bateria",
+      "drum machine",
+      "ritmo",
+      "sequenciador",
+      "percussao",
+      "samples",
+      "midi",
+      "beats"
+    ]
+  },
+  {
+    "id": "guitarix",
+    "name": "Guitarix",
+    "description": "Amplificador virtual de guitarra e rack de pedais de efeito com simulação valvulada e baixa latência.",
+    "category": "audio",
+    "replaces": [
+      "IK Multimedia AmpliTube",
+      "Native Instruments Guitar Rig",
+      "Neural DSP",
+      "Positive Grid BIAS FX",
+      "Line 6 Helix Native",
+      "Overloud TH-U"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Linux"
+    ],
+    "site": "https://guitarix.org",
+    "repository": "https://github.com/brummer10/guitarix",
+    "tags": [
+      "guitarra",
+      "amplificador",
+      "pedaleira",
+      "efeitos de guitarra",
+      "distorcao",
+      "vst",
+      "lv2",
+      "ir loader",
+      "gravacao"
+    ]
+  },
+  {
+    "id": "bespoke-synth",
+    "name": "Bespoke Synth",
+    "description": "Tela modular de criação musical com sequenciadores, sintetizadores, efeitos e live coding em Python.",
+    "category": "audio",
+    "replaces": [
+      "Bitwig Studio",
+      "Ableton Live",
+      "Cycling '74 Max/MSP",
+      "Reason"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.bespokesynth.com",
+    "repository": "https://github.com/BespokeSynth/BespokeSynth",
+    "tags": [
+      "modular",
+      "daw",
+      "sintetizador",
+      "live coding",
+      "sequenciador",
+      "midi",
+      "vst",
+      "jamming"
+    ]
+  },
+  {
+    "id": "sonic-pi",
+    "name": "Sonic Pi",
+    "description": "Ambiente de criação musical e síntese sonora ao vivo através de programação (live coding).",
+    "category": "audio",
+    "replaces": [
+      "Cycling '74 Max/MSP",
+      "Ableton Live",
+      "GarageBand"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://sonic-pi.net",
+    "repository": "https://github.com/sonic-pi-net/sonic-pi",
+    "tags": [
+      "live coding",
+      "musica com codigo",
+      "algorave",
+      "sintetizador",
+      "ruby",
+      "educacao musical",
+      "performance ao vivo"
+    ]
+  },
+  {
+    "id": "navidrome",
+    "name": "Navidrome",
+    "description": "Servidor de streaming de música pessoal moderno, leve e compatível com aplicativos Subsonic.",
+    "category": "audio",
+    "replaces": [
+      "Spotify",
+      "Apple Music",
+      "Deezer",
+      "Tidal",
+      "Roon",
+      "Plexamp",
+      "YouTube Music"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.navidrome.org",
+    "repository": "https://github.com/navidrome/navidrome",
+    "tags": [
+      "streaming de musica",
+      "spotify",
+      "servidor de musica",
+      "mp3",
+      "flac",
+      "subsonic",
+      "self-hosted",
+      "colecao musical"
+    ]
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry Music Player",
+    "description": "Reprodutor e organizador de coleções musicais de alta fidelidade (FLAC/ALAC) para audiófilos.",
+    "category": "audio",
+    "replaces": [
+      "Roon",
+      "Audirvana",
+      "JRiver Media Center",
+      "iTunes",
+      "Apple Music",
+      "Winamp",
+      "Foobar2000"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.strawberrymusicplayer.org",
+    "repository": "https://github.com/strawberrymusicplayer/strawberry",
+    "tags": [
+      "player de musica",
+      "audiofilo",
+      "flac",
+      "hi-res",
+      "lossless",
+      "biblioteca musical",
+      "letras",
+      "mp3"
+    ]
+  },
+  {
+    "id": "freac",
+    "name": "fre:ac",
+    "description": "Conversor de áudio e extrator de CDs (ripper) rápido com suporte a FLAC, MP3, Opus, AAC e lotes.",
+    "category": "audio",
+    "replaces": [
+      "dBpoweramp",
+      "EZ CD Audio Converter",
+      "Switch Audio Converter",
+      "XLD",
+      "Windows Media Player Ripper"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.freac.org",
+    "repository": "https://github.com/enzo1982/freac",
+    "tags": [
+      "conversor de audio",
+      "cd ripper",
+      "mp3",
+      "flac",
+      "ogg",
+      "opus",
+      "aac",
+      "wav",
+      "conversao em lote"
+    ]
+  },
+  {
+    "id": "musicbrainz-picard",
+    "name": "MusicBrainz Picard",
+    "description": "Organizador e editor automático de tags e capas de músicas por impressão digital acústica.",
+    "category": "audio",
+    "replaces": [
+      "Tag&Rename",
+      "Metadatics",
+      "Yate Music Tagger",
+      "TuneUp",
+      "Jaikoz"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://picard.musicbrainz.org",
+    "repository": "https://github.com/metabrainz/picard",
+    "tags": [
+      "id3",
+      "tags de musica",
+      "metadados",
+      "capas de album",
+      "organizador",
+      "mp3",
+      "flac",
+      "acoustid"
+    ]
+  },
+  {
+    "id": "spotube",
+    "name": "Spotube",
+    "description": "Cliente de streaming musical leve e sem anúncios que une playlists do Spotify a fontes abertas.",
+    "category": "audio",
+    "replaces": [
+      "Spotify",
+      "YouTube Music",
+      "Deezer",
+      "Apple Music",
+      "Tidal"
+    ],
+    "license": "BSD-4-Clause",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://spotube.krtirtho.dev",
+    "repository": "https://github.com/KRTirtho/spotube",
+    "tags": [
+      "spotify",
+      "streaming de musica",
+      "player de musica",
+      "sem anuncios",
+      "playlists",
+      "letras",
+      "musica"
+    ]
+  },
+  {
+    "id": "nuclear",
+    "name": "Nuclear Music Player",
+    "description": "Player de streaming de música para desktop que busca faixas em múltiplas fontes gratuitas.",
+    "category": "audio",
+    "replaces": [
+      "Spotify",
+      "YouTube Music",
+      "Deezer",
+      "SoundCloud Go"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://nuclear.js.org",
+    "repository": "https://github.com/nukeop/nuclear",
+    "tags": [
+      "musica",
+      "streaming",
+      "spotify",
+      "player",
+      "sem anuncios",
+      "playlists",
+      "mp3"
+    ]
+  },
+  {
+    "id": "carla",
+    "name": "Carla",
+    "description": "Host modular de plugins de áudio (VST2, VST3, LV2, CLAP, AU) e roteador de cabos virtuais.",
+    "category": "audio",
+    "replaces": [
+      "Voicemeeter Banana",
+      "Rogue Amoeba Loopback",
+      "Waves StudioRack",
+      "Kushview Element"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://kx.studio/Applications:Carla",
+    "repository": "https://github.com/falkTX/Carla",
+    "tags": [
+      "vst host",
+      "roteamento de audio",
+      "voicemeeter",
+      "patchbay",
+      "plugins",
+      "midi",
+      "estudio"
+    ]
+  },
+  {
+    "id": "easyeffects",
+    "name": "EasyEffects",
+    "description": "Processador de áudio em tempo real com redução de ruído por IA, equalizador, compressor e limiter.",
+    "category": "audio",
+    "replaces": [
+      "Krisp",
+      "NVIDIA Broadcast",
+      "SteelSeries Sonar",
+      "Dolby Access",
+      "Boom 3D"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux"
+    ],
+    "site": "https://github.com/wwmm/easyeffects",
+    "repository": "https://github.com/wwmm/easyeffects",
+    "tags": [
+      "equalizador",
+      "reducao de ruido",
+      "microfone",
+      "krisp",
+      "compressor",
+      "pipewire",
+      "audio"
+    ]
+  },
+  {
+    "id": "pure-data",
+    "name": "Pure Data (Pd)",
+    "description": "Linguagem de programação visual em nós para criar música interativa, sintetizadores e efeitos.",
+    "category": "audio",
+    "replaces": [
+      "Cycling '74 Max/MSP",
+      "Native Instruments Reaktor",
+      "Kyma"
+    ],
+    "license": "BSD-3-Clause",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://puredata.info",
+    "repository": "https://github.com/pure-data/pure-data",
+    "tags": [
+      "sintese sonora",
+      "programacao visual",
+      "max msp",
+      "audio interativo",
+      "dsp",
+      "experimental",
+      "arte sonora"
     ]
   },
   {
@@ -230,10 +2315,14 @@
     "description": "Distribuição binária livre do editor VS Code sem telemetria ou rastreamento proprietário.",
     "category": "dev",
     "replaces": [
+      "Visual Studio Code",
+      "VS Code",
       "Visual Studio",
       "Sublime Text",
       "WebStorm",
-      "PhpStorm"
+      "PhpStorm",
+      "PyCharm",
+      "Cursor"
     ],
     "license": "MIT",
     "platforms": [
@@ -248,7 +2337,165 @@
       "editor de codigo",
       "programacao",
       "desenvolvimento",
-      "vscode"
+      "vscode",
+      "typescript",
+      "python",
+      "javascript",
+      "extensoes",
+      "git"
+    ]
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "description": "Editor de código ultrarrápido em Rust com aceleração por GPU, colaboração ao vivo e suporte a IA.",
+    "category": "dev",
+    "replaces": [
+      "Visual Studio Code",
+      "Sublime Text",
+      "Cursor",
+      "JetBrains Fleet",
+      "Nova"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://zed.dev",
+    "repository": "https://github.com/zed-industries/zed",
+    "tags": [
+      "editor de codigo",
+      "rust",
+      "rapido",
+      "gpu",
+      "pair programming",
+      "ia",
+      "lsp",
+      "ide",
+      "programacao"
+    ]
+  },
+  {
+    "id": "neovim",
+    "name": "Neovim",
+    "description": "Editor de texto hiperextensível baseado no Vim com suporte nativo a LSP, scripts Lua e Tree-sitter.",
+    "category": "dev",
+    "replaces": [
+      "Visual Studio Code",
+      "Sublime Text",
+      "JetBrains IDEs",
+      "UltraEdit"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://neovim.io",
+    "repository": "https://github.com/neovim/neovim",
+    "tags": [
+      "vim",
+      "editor de texto",
+      "terminal",
+      "cli",
+      "lua",
+      "lsp",
+      "programacao",
+      "teclado",
+      "ide"
+    ]
+  },
+  {
+    "id": "kate",
+    "name": "Kate",
+    "description": "Editor de código avançado e leve do KDE com suporte a LSP, terminal integrado, Git e sessões.",
+    "category": "dev",
+    "replaces": [
+      "Sublime Text",
+      "UltraEdit",
+      "TextMate",
+      "BBEdit",
+      "EditPlus"
+    ],
+    "license": "LGPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://kate-editor.org",
+    "repository": "https://invent.kde.org/utilities/kate",
+    "tags": [
+      "editor de texto",
+      "editor de codigo",
+      "leve",
+      "git",
+      "lsp",
+      "multiplas abas",
+      "programacao"
+    ]
+  },
+  {
+    "id": "notepad-plus-plus",
+    "name": "Notepad++",
+    "description": "Editor de código-fonte e texto clássico, ultraleve e rápido para Windows com suporte a plugins.",
+    "category": "dev",
+    "replaces": [
+      "UltraEdit",
+      "EditPlus",
+      "TextPad",
+      "Windows Notepad",
+      "Sublime Text"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://notepad-plus-plus.org",
+    "repository": "https://github.com/notepad-plus-plus/notepad-plus-plus",
+    "tags": [
+      "bloco de notas",
+      "editor de texto",
+      "codigo",
+      "regex",
+      "leve",
+      "windows",
+      "logs",
+      "xml",
+      "json"
+    ]
+  },
+  {
+    "id": "eclipse-ide",
+    "name": "Eclipse IDE",
+    "description": "Ambiente de desenvolvimento integrado (IDE) robusto para Java, C/C++, PHP e sistemas corporativos.",
+    "category": "dev",
+    "replaces": [
+      "IntelliJ IDEA Ultimate",
+      "Visual Studio Professional",
+      "CLion",
+      "MyEclipse"
+    ],
+    "license": "EPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://eclipseide.org",
+    "repository": "https://github.com/eclipse-platform",
+    "tags": [
+      "ide",
+      "java",
+      "c++",
+      "spring",
+      "compilador",
+      "debug",
+      "programacao",
+      "corporativo"
     ]
   },
   {
@@ -259,14 +2506,18 @@
     "replaces": [
       "Unity",
       "Unreal Engine",
-      "GameMaker"
+      "GameMaker",
+      "Construct 3",
+      "RPG Maker",
+      "CryEngine"
     ],
     "license": "MIT",
     "platforms": [
       "Windows",
       "Linux",
       "macOS",
-      "Web"
+      "Web",
+      "Android"
     ],
     "site": "https://godotengine.org",
     "repository": "https://github.com/godotengine/godot",
@@ -276,7 +2527,1482 @@
       "engine",
       "2d",
       "3d",
+      "programacao",
+      "gdscript",
+      "c#",
+      "indie games",
+      "xr"
+    ]
+  },
+  {
+    "id": "gdevelop",
+    "name": "GDevelop",
+    "description": "Motor de criação de jogos 2D e 3D sem código (no-code) baseado em eventos visuais intuitivos.",
+    "category": "dev",
+    "replaces": [
+      "Construct 3",
+      "GameMaker",
+      "Buildbox",
+      "Stencyl",
+      "RPG Maker"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://gdevelop.io",
+    "repository": "https://github.com/4ian/GDevelop",
+    "tags": [
+      "gamedev",
+      "no-code",
+      "jogos 2d",
+      "jogos 3d",
+      "construct",
+      "iniciante",
+      "mobile games",
+      "html5"
+    ]
+  },
+  {
+    "id": "bevy",
+    "name": "Bevy Engine",
+    "description": "Motor de jogos 2D e 3D orientado a dados (ECS) construído em Rust com foco em alta performance.",
+    "category": "dev",
+    "replaces": [
+      "Unity",
+      "Unreal Engine",
+      "MonoGame"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://bevyengine.org",
+    "repository": "https://github.com/bevyengine/bevy",
+    "tags": [
+      "gamedev",
+      "rust",
+      "ecs",
+      "engine",
+      "2d",
+      "3d",
+      "jogos",
+      "webgpu",
       "programacao"
+    ]
+  },
+  {
+    "id": "stride",
+    "name": "Stride Engine",
+    "description": "Motor de jogos 3D e 2D em C# e .NET com renderização realista PBR, editor visual e suporte a VR.",
+    "category": "dev",
+    "replaces": [
+      "Unity",
+      "Unreal Engine",
+      "CryEngine"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "site": "https://www.stride3d.net",
+    "repository": "https://github.com/stride3d/stride",
+    "tags": [
+      "gamedev",
+      "c#",
+      "dotnet",
+      "unity",
+      "3d",
+      "vr",
+      "pbr",
+      "jogos",
+      "engine"
+    ]
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno",
+    "description": "Cliente de API rápido e offline que salva coleções direto em pastas no Git sem exigir conta na nuvem.",
+    "category": "dev",
+    "replaces": [
+      "Postman",
+      "Insomnia",
+      "RapidAPI (Paw)",
+      "Thunder Client",
+      "SoapUI"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.usebruno.com",
+    "repository": "https://github.com/usebruno/bruno",
+    "tags": [
+      "api",
+      "rest",
+      "graphql",
+      "postman",
+      "http",
+      "testes de api",
+      "git",
+      "offline",
+      "backend"
+    ]
+  },
+  {
+    "id": "hoppscotch",
+    "name": "Hoppscotch",
+    "description": "Plataforma aberta e leve para teste e desenvolvimento de APIs REST, GraphQL, WebSocket e MQTT.",
+    "category": "dev",
+    "replaces": [
+      "Postman",
+      "Insomnia",
+      "SwaggerHub",
+      "SoapUI",
+      "Apidog"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://hoppscotch.io",
+    "repository": "https://github.com/hoppscotch/hoppscotch",
+    "tags": [
+      "api",
+      "rest",
+      "graphql",
+      "websocket",
+      "postman",
+      "http",
+      "debug",
+      "web",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "dbeaver",
+    "name": "DBeaver Community",
+    "description": "Gerenciador universal de bancos de dados SQL e NoSQL com editor de queries, dados e diagramas ER.",
+    "category": "dev",
+    "replaces": [
+      "JetBrains DataGrip",
+      "Navicat Premium",
+      "TablePlus",
+      "Toad",
+      "SQL Server Management Studio",
+      "SQLPro"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://dbeaver.io",
+    "repository": "https://github.com/dbeaver/dbeaver",
+    "tags": [
+      "banco de dados",
+      "sql",
+      "postgresql",
+      "mysql",
+      "sqlite",
+      "oracle",
+      "diagrama er",
+      "dba",
+      "datagrip"
+    ]
+  },
+  {
+    "id": "beekeeper-studio",
+    "name": "Beekeeper Studio Community",
+    "description": "Cliente SQL e gerenciador de banco de dados moderno, rápido e intuitivo para Postgres, MySQL e SQLite.",
+    "category": "dev",
+    "replaces": [
+      "TablePlus",
+      "JetBrains DataGrip",
+      "Navicat",
+      "Postico",
+      "Sequel Ace"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.beekeeperstudio.io",
+    "repository": "https://github.com/beekeeper-studio/beekeeper-studio",
+    "tags": [
+      "sql",
+      "banco de dados",
+      "tableplus",
+      "postgresql",
+      "mysql",
+      "sqlite",
+      "queries",
+      "interface moderna"
+    ]
+  },
+  {
+    "id": "podman-desktop",
+    "name": "Podman Desktop",
+    "description": "Interface gráfica para criar e gerenciar containers, imagens e Kubernetes localmente sem daemon root.",
+    "category": "dev",
+    "replaces": [
+      "Docker Desktop",
+      "OrbStack",
+      "Rancher Desktop"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://podman-desktop.io",
+    "repository": "https://github.com/containers/podman-desktop",
+    "tags": [
+      "containers",
+      "docker",
+      "kubernetes",
+      "podman",
+      "devops",
+      "virtualizacao",
+      "microsservicos"
+    ]
+  },
+  {
+    "id": "portainer",
+    "name": "Portainer Community",
+    "description": "Painel web visual para gerenciamento simplificado de containers Docker, Swarm, Podman e Kubernetes.",
+    "category": "dev",
+    "replaces": [
+      "Docker Desktop Dashboard",
+      "Lens Pro",
+      "AWS ECS Console",
+      "Rancher Prime"
+    ],
+    "license": "Zlib",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.portainer.io",
+    "repository": "https://github.com/portainer/portainer",
+    "tags": [
+      "docker",
+      "containers",
+      "kubernetes",
+      "devops",
+      "painel web",
+      "servidor",
+      "compose",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "coolify",
+    "name": "Coolify",
+    "description": "Plataforma PaaS auto-hospedável para deploy automático de sites, APIs e bancos de dados em VPS.",
+    "category": "dev",
+    "replaces": [
+      "Vercel",
+      "Heroku",
+      "Netlify",
+      "Railway",
+      "Render",
+      "Fly.io",
+      "DigitalOcean App Platform"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://coolify.io",
+    "repository": "https://github.com/coollabsio/coolify",
+    "tags": [
+      "paas",
+      "deploy",
+      "heroku",
+      "vercel",
+      "hospedagem",
+      "vps",
+      "docker",
+      "ci-cd",
+      "self-hosted",
+      "devops"
+    ]
+  },
+  {
+    "id": "dokploy",
+    "name": "Dokploy",
+    "description": "Solução leve e aberta para deploy contínuo de aplicações, Docker Compose e bancos em qualquer servidor.",
+    "category": "dev",
+    "replaces": [
+      "Vercel",
+      "Heroku",
+      "Railway",
+      "Render",
+      "Netlify",
+      "AWS Amplify"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://dokploy.com",
+    "repository": "https://github.com/Dokploy/dokploy",
+    "tags": [
+      "deploy",
+      "paas",
+      "docker",
+      "traefik",
+      "vps",
+      "hospedagem",
+      "vercel",
+      "railway",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "description": "Backend-as-a-Service aberto baseado em PostgreSQL com autenticação, storage, APIs e tempo real.",
+    "category": "dev",
+    "replaces": [
+      "Google Firebase",
+      "Firebase",
+      "AWS Amplify",
+      "Auth0",
+      "PlanetScale",
+      "Pusher"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://supabase.com",
+    "repository": "https://github.com/supabase/supabase",
+    "tags": [
+      "baas",
+      "firebase",
+      "postgresql",
+      "backend",
+      "autenticacao",
+      "storage",
+      "realtime",
+      "vetores",
+      "api"
+    ]
+  },
+  {
+    "id": "appwrite",
+    "name": "Appwrite",
+    "description": "Servidor de backend completo com autenticação, bancos de dados, storage, mensagens e serverless.",
+    "category": "dev",
+    "replaces": [
+      "Google Firebase",
+      "AWS Amplify",
+      "Back4App",
+      "Auth0",
+      "OneSignal"
+    ],
+    "license": "BSD-3-Clause",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://appwrite.io",
+    "repository": "https://github.com/appwrite/appwrite",
+    "tags": [
+      "backend",
+      "baas",
+      "firebase",
+      "auth",
+      "database",
+      "storage",
+      "serverless",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "pocketbase",
+    "name": "PocketBase",
+    "description": "Backend aberto em um único arquivo executável com banco SQLite, autenticação, painel e tempo real.",
+    "category": "dev",
+    "replaces": [
+      "Google Firebase",
+      "Backendless",
+      "Parse",
+      "Auth0"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://pocketbase.io",
+    "repository": "https://github.com/pocketbase/pocketbase",
+    "tags": [
+      "backend",
+      "sqlite",
+      "golang",
+      "leva",
+      "realtime",
+      "auth",
+      "rest api",
+      "firebase"
+    ]
+  },
+  {
+    "id": "strapi",
+    "name": "Strapi",
+    "description": "Headless CMS líder de código aberto em Node.js para criar APIs REST e GraphQL personalizáveis.",
+    "category": "dev",
+    "replaces": [
+      "Contentful",
+      "Sanity",
+      "Prismic",
+      "Storyblok",
+      "DatoCMS",
+      "Adobe Experience Manager"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://strapi.io",
+    "repository": "https://github.com/strapi/strapi",
+    "tags": [
+      "cms",
+      "headless cms",
+      "nodejs",
+      "api",
+      "rest",
+      "graphql",
+      "gerenciador de conteudo",
+      "backend"
+    ]
+  },
+  {
+    "id": "directus",
+    "name": "Directus",
+    "description": "Plataforma que transforma qualquer banco de dados SQL em API REST/GraphQL e painel administrativo.",
+    "category": "dev",
+    "replaces": [
+      "Contentful",
+      "Retool",
+      "Forest Admin",
+      "Sanity",
+      "Airtable"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://directus.io",
+    "repository": "https://github.com/directus/directus",
+    "tags": [
+      "headless cms",
+      "sql",
+      "painel admin",
+      "api",
+      "no-code",
+      "backoffice",
+      "dados"
+    ]
+  },
+  {
+    "id": "activepieces",
+    "name": "Activepieces",
+    "description": "Plataforma aberta de automação de fluxos de trabalho no-code e agentes de IA conectada a 200+ apps.",
+    "category": "dev",
+    "replaces": [
+      "Zapier",
+      "Make (Integromat)",
+      "Microsoft Power Automate",
+      "Workato",
+      "IFTTT",
+      "Tray.io"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.activepieces.com",
+    "repository": "https://github.com/activepieces/activepieces",
+    "tags": [
+      "automacao",
+      "zapier",
+      "make",
+      "integracao",
+      "webhooks",
+      "no-code",
+      "workflow",
+      "ia",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "node-red",
+    "name": "Node-RED",
+    "description": "Ferramenta visual baseada em fluxos para conectar APIs, serviços online e dispositivos de IoT.",
+    "category": "dev",
+    "replaces": [
+      "Zapier",
+      "Make",
+      "IFTTT",
+      "AWS IoT Events",
+      "LabVIEW"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://nodered.org",
+    "repository": "https://github.com/node-red/node-red",
+    "tags": [
+      "iot",
+      "automacao",
+      "fluxos",
+      "low-code",
+      "mqtt",
+      "api",
+      "hardware",
+      "raspberry pi"
+    ]
+  },
+  {
+    "id": "windmill",
+    "name": "Windmill",
+    "description": "Motor de workflows e plataforma interna que converte scripts Python, TS, Go e SQL em UIs e crons.",
+    "category": "dev",
+    "replaces": [
+      "Retool",
+      "Airplane",
+      "Zapier",
+      "Temporal Cloud",
+      "Prefect Cloud"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.windmill.dev",
+    "repository": "https://github.com/windmill-labs/windmill",
+    "tags": [
+      "workflows",
+      "automacao",
+      "internal tools",
+      "retool",
+      "cron",
+      "python",
+      "typescript",
+      "etl"
+    ]
+  },
+  {
+    "id": "appsmith",
+    "name": "Appsmith",
+    "description": "Plataforma low-code aberta para construir painéis administrativos, CRUDs e ferramentas internas.",
+    "category": "dev",
+    "replaces": [
+      "Retool",
+      "Microsoft Power Apps",
+      "Bubble",
+      "Superblocks",
+      "OutSystems"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.appsmith.com",
+    "repository": "https://github.com/appsmithorg/appsmith",
+    "tags": [
+      "low-code",
+      "painel admin",
+      "dashboard",
+      "crud",
+      "retool",
+      "ferramentas internas",
+      "sql"
+    ]
+  },
+  {
+    "id": "gitea",
+    "name": "Gitea",
+    "description": "Servidor Git auto-hospedado super leve com pull requests, issues, pacotes e CI/CD (Gitea Actions).",
+    "category": "dev",
+    "replaces": [
+      "GitHub Enterprise",
+      "GitHub",
+      "Bitbucket Server",
+      "GitLab Enterprise",
+      "Azure DevOps"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://about.gitea.com",
+    "repository": "https://github.com/go-gitea/gitea",
+    "tags": [
+      "git",
+      "github",
+      "repositorios",
+      "ci-cd",
+      "code review",
+      "devops",
+      "self-hosted",
+      "controle de versao"
+    ]
+  },
+  {
+    "id": "forgejo",
+    "name": "Forgejo",
+    "description": "Forja de software Git comunitária, leve e federada para hospedar código, revisões e automação CI.",
+    "category": "dev",
+    "replaces": [
+      "GitHub",
+      "Bitbucket",
+      "GitLab",
+      "AWS CodeCommit"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://forgejo.org",
+    "repository": "https://codeberg.org/forgejo/forgejo",
+    "tags": [
+      "git",
+      "forja",
+      "github",
+      "codeberg",
+      "ci-cd",
+      "self-hosted",
+      "controle de versao"
+    ]
+  },
+  {
+    "id": "lazygit",
+    "name": "Lazygit",
+    "description": "Interface de terminal (TUI) rápida e intuitiva para gerenciar commits, branches e rebases no Git.",
+    "category": "dev",
+    "replaces": [
+      "GitKraken",
+      "Sourcetree",
+      "Tower",
+      "Fork",
+      "SmartGit"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://github.com/jesseduffield/lazygit",
+    "repository": "https://github.com/jesseduffield/lazygit",
+    "tags": [
+      "git",
+      "tui",
+      "terminal",
+      "cliente git",
+      "rebase",
+      "commit",
+      "produtividade dev"
+    ]
+  },
+  {
+    "id": "github-desktop",
+    "name": "GitHub Desktop",
+    "description": "Aplicativo visual para gerenciar repositórios Git, branches, diffs e commits sem linha de comando.",
+    "category": "dev",
+    "replaces": [
+      "GitKraken",
+      "Tower",
+      "SmartGit",
+      "Fork",
+      "Sourcetree"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://desktop.github.com",
+    "repository": "https://github.com/desktop/desktop",
+    "tags": [
+      "git",
+      "interface grafica",
+      "cliente git",
+      "versionamento",
+      "branches",
+      "pull request"
+    ]
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "description": "Ferramenta para baixar e executar modelos de inteligência artificial (Llama, Qwen, DeepSeek) no PC.",
+    "category": "dev",
+    "replaces": [
+      "OpenAI API",
+      "ChatGPT Plus",
+      "Claude Pro",
+      "LM Studio",
+      "Anthropic API"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://ollama.com",
+    "repository": "https://github.com/ollama/ollama",
+    "tags": [
+      "ia",
+      "llm",
+      "inteligencia artificial",
+      "ia local",
+      "offline",
+      "llama",
+      "deepseek",
+      "api local",
+      "privacidade"
+    ]
+  },
+  {
+    "id": "jan",
+    "name": "Jan",
+    "description": "Aplicativo desktop 100% offline para conversar com modelos de IA locais ou remotos com privacidade.",
+    "category": "dev",
+    "replaces": [
+      "ChatGPT Desktop",
+      "Claude Desktop",
+      "LM Studio",
+      "Microsoft Copilot",
+      "Poe"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://jan.ai",
+    "repository": "https://github.com/janhq/jan",
+    "tags": [
+      "ia",
+      "chatgpt",
+      "llm",
+      "offline",
+      "assistente ia",
+      "privacidade",
+      "local ai",
+      "gguf"
+    ]
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "description": "Interface web completa e auto-hospedável para modelos de IA locais (Ollama), RAG, voz e agentes.",
+    "category": "dev",
+    "replaces": [
+      "ChatGPT Plus",
+      "TypingMind",
+      "Claude Pro",
+      "Perplexity Pro",
+      "Poe"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://openwebui.com",
+    "repository": "https://github.com/open-webui/open-webui",
+    "tags": [
+      "ia",
+      "chatgpt",
+      "interface web",
+      "ollama",
+      "rag",
+      "llm",
+      "self-hosted",
+      "chat"
+    ]
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "description": "Estúdio modular em nós para geração avançada de imagens, vídeos e áudios com IA (Stable Diffusion).",
+    "category": "dev",
+    "replaces": [
+      "Midjourney",
+      "Adobe Firefly",
+      "Leonardo AI",
+      "RunwayML",
+      "DALL-E 3",
+      "Krea AI"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.comfy.org",
+    "repository": "https://github.com/comfyanonymous/ComfyUI",
+    "tags": [
+      "ia generativa",
+      "stable diffusion",
+      "flux",
+      "gerador de imagem",
+      "gerador de video",
+      "node-based",
+      "midjourney"
+    ]
+  },
+  {
+    "id": "tabby",
+    "name": "Tabby Terminal",
+    "description": "Terminal moderno altamente configurável com cliente SSH, SFTP, serial e painéis divididos integrados.",
+    "category": "dev",
+    "replaces": [
+      "Termius",
+      "SecureCRT",
+      "MobaXterm",
+      "PuTTY",
+      "Warp",
+      "Xshell"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://tabby.sh",
+    "repository": "https://github.com/Eugeny/tabby",
+    "tags": [
+      "terminal",
+      "ssh",
+      "sftp",
+      "console",
+      "serial",
+      "devops",
+      "sysadmin",
+      "termius"
+    ]
+  },
+  {
+    "id": "wezterm",
+    "name": "WezTerm",
+    "description": "Emulador de terminal acelerado por GPU e multiplexador multiplataforma configurável em linguagem Lua.",
+    "category": "dev",
+    "replaces": [
+      "Warp",
+      "iTerm2",
+      "SecureCRT",
+      "Hyper"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://wezfurlong.org/wezterm",
+    "repository": "https://github.com/wez/wezterm",
+    "tags": [
+      "terminal",
+      "gpu",
+      "multiplexador",
+      "ssh",
+      "lua",
+      "cli",
+      "rust"
+    ]
+  },
+  {
+    "id": "cyberchef",
+    "name": "CyberChef",
+    "description": "Canivete suíço web para decodificação, criptografia, conversão de dados, análise forense e regex.",
+    "category": "dev",
+    "replaces": [
+      "Burp Suite Decoder",
+      "DevUtils",
+      "HexEd.it"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://gchq.github.io/CyberChef",
+    "repository": "https://github.com/gchq/CyberChef",
+    "tags": [
+      "criptografia",
+      "base64",
+      "hex",
+      "json",
+      "regex",
+      "seguranca",
+      "ctf",
+      "conversor",
+      "forense"
+    ]
+  },
+  {
+    "id": "it-tools",
+    "name": "IT-Tools",
+    "description": "Coleção web auto-hospedável com mais de 80 utilitários práticos para desenvolvedores e sysadmins.",
+    "category": "dev",
+    "replaces": [
+      "DevUtils",
+      "SmallDev.tools",
+      "Transform.tools"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://it-tools.tech",
+    "repository": "https://github.com/CorentinTh/it-tools",
+    "tags": [
+      "jwt",
+      "hash",
+      "uuid",
+      "json",
+      "formatador",
+      "docker",
+      "gerador de senhas",
+      "utilitarios dev",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "uptime-kuma",
+    "name": "Uptime Kuma",
+    "description": "Monitor de disponibilidade (uptime) para sites, APIs e servidores com alertas e páginas de status.",
+    "category": "dev",
+    "replaces": [
+      "UptimeRobot",
+      "Pingdom",
+      "Better Stack (Better Uptime)",
+      "Atlassian Statuspage",
+      "Datadog Synthetics"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://uptime.kuma.pet",
+    "repository": "https://github.com/louislam/uptime-kuma",
+    "tags": [
+      "monitoramento",
+      "uptime",
+      "status page",
+      "alertas",
+      "ping",
+      "devops",
+      "servidor",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "description": "Plataforma líder para visualização de métricas, logs, observabilidade e dashboards em tempo real.",
+    "category": "dev",
+    "replaces": [
+      "Datadog",
+      "New Relic",
+      "Dynatrace",
+      "Tableau",
+      "Microsoft Power BI",
+      "Splunk"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://grafana.com",
+    "repository": "https://github.com/grafana/grafana",
+    "tags": [
+      "dashboard",
+      "observabilidade",
+      "metricas",
+      "monitoramento",
+      "graficos",
+      "prometheus",
+      "devops",
+      "bi"
+    ]
+  },
+  {
+    "id": "umami",
+    "name": "Umami",
+    "description": "Análise de tráfego web (web analytics) rápida, simples, sem cookies e focada em privacidade e LGPD.",
+    "category": "dev",
+    "replaces": [
+      "Google Analytics",
+      "Adobe Analytics",
+      "Mixpanel",
+      "Fathom Analytics",
+      "Hotjar"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://umami.is",
+    "repository": "https://github.com/umami-software/umami",
+    "tags": [
+      "analytics",
+      "google analytics",
+      "metricas web",
+      "privacidade",
+      "lgpd",
+      "gdpr",
+      "seo",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "plausible",
+    "name": "Plausible Analytics",
+    "description": "Alternativa leve e ética ao Google Analytics que não usa cookies e respeita a privacidade (LGPD).",
+    "category": "dev",
+    "replaces": [
+      "Google Analytics",
+      "Matomo Cloud",
+      "Mixpanel",
+      "Adobe Analytics"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://plausible.io",
+    "repository": "https://github.com/plausible/analytics",
+    "tags": [
+      "web analytics",
+      "google analytics",
+      "estatisticas",
+      "trafego",
+      "privacidade",
+      "lgpd",
+      "marketing"
+    ]
+  },
+  {
+    "id": "posthog",
+    "name": "PostHog",
+    "description": "Suíte de análise de produto com eventos, gravação de sessão, feature flags, testes A/B e pesquisas.",
+    "category": "dev",
+    "replaces": [
+      "Mixpanel",
+      "Amplitude",
+      "LaunchDarkly",
+      "LogRocket",
+      "FullStory",
+      "Hotjar"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://posthog.com",
+    "repository": "https://github.com/PostHog/posthog",
+    "tags": [
+      "product analytics",
+      "feature flags",
+      "teste ab",
+      "session replay",
+      "mixpanel",
+      "metricas",
+      "saas"
+    ]
+  },
+  {
+    "id": "meilisearch",
+    "name": "Meilisearch",
+    "description": "Motor de busca ultrarrápido com tolerância a erros de digitação, filtros e busca semântica por IA.",
+    "category": "dev",
+    "replaces": [
+      "Algolia",
+      "Elasticsearch Cloud",
+      "AWS CloudSearch",
+      "Coveo"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.meilisearch.com",
+    "repository": "https://github.com/meilisearch/meilisearch",
+    "tags": [
+      "motor de busca",
+      "search engine",
+      "algolia",
+      "full-text search",
+      "rust",
+      "api",
+      "vetores"
+    ]
+  },
+  {
+    "id": "keycloak",
+    "name": "Keycloak",
+    "description": "Sistema de gerenciamento de identidade e acesso (IAM) com Single Sign-On (SSO), OAuth2, OIDC e SAML.",
+    "category": "dev",
+    "replaces": [
+      "Auth0",
+      "Okta",
+      "AWS Cognito",
+      "Microsoft Entra ID (Azure AD)",
+      "OneLogin"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.keycloak.org",
+    "repository": "https://github.com/keycloak/keycloak",
+    "tags": [
+      "autenticacao",
+      "sso",
+      "iam",
+      "oauth2",
+      "oidc",
+      "saml",
+      "auth0",
+      "seguranca",
+      "identidade"
+    ]
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "description": "Framework moderno para testes automatizados end-to-end e automação de navegadores Chromium e WebKit.",
+    "category": "dev",
+    "replaces": [
+      "Cypress Cloud",
+      "BrowserStack Automate",
+      "Tricentis Tosca",
+      "Ranorex",
+      "TestComplete"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://playwright.dev",
+    "repository": "https://github.com/microsoft/playwright",
+    "tags": [
+      "testes automatizados",
+      "qa",
+      "e2e",
+      "scraping",
+      "automacao web",
+      "browser",
+      "typescript",
+      "python"
+    ]
+  },
+  {
+    "id": "wordpress",
+    "name": "WordPress.org",
+    "description": "Sistema de gerenciamento de conteúdo (CMS) aberto para criar blogs, sites, portais e e-commerces.",
+    "category": "dev",
+    "replaces": [
+      "Wix",
+      "Squarespace",
+      "Webflow",
+      "WordPress.com",
+      "Blogger",
+      "Medium"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://wordpress.org",
+    "repository": "https://github.com/WordPress/WordPress",
+    "tags": [
+      "cms",
+      "sites",
+      "blog",
+      "criador de sites",
+      "php",
+      "woocommerce",
+      "seo",
+      "web"
+    ]
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "description": "Plataforma moderna de publicação para blogs, portais de notícias, newsletters e assinaturas.",
+    "category": "dev",
+    "replaces": [
+      "Substack",
+      "Medium",
+      "beehiiv",
+      "Patreon",
+      "Squarespace",
+      "Memberful"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://ghost.org",
+    "repository": "https://github.com/TryGhost/Ghost",
+    "tags": [
+      "blog",
+      "newsletter",
+      "substack",
+      "cms",
+      "assinaturas",
+      "jornalismo",
+      "criadores",
+      "seo"
+    ]
+  },
+  {
+    "id": "webstudio",
+    "name": "Webstudio",
+    "description": "Construtor visual de sites (no-code) aberto com controle total de CSS e zero aprisionamento.",
+    "category": "dev",
+    "replaces": [
+      "Webflow",
+      "Framer",
+      "Wix Studio",
+      "Squarespace",
+      "Elementor Pro"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://webstudio.is",
+    "repository": "https://github.com/webstudio-is/webstudio",
+    "tags": [
+      "webflow",
+      "no-code",
+      "criador de sites",
+      "web design",
+      "landing page",
+      "css",
+      "frontend"
+    ]
+  },
+  {
+    "id": "medusa",
+    "name": "Medusa",
+    "description": "Plataforma de e-commerce aberta e modular em Node.js para construir lojas virtuais escaláveis.",
+    "category": "dev",
+    "replaces": [
+      "Shopify",
+      "Shopify Plus",
+      "VTEX",
+      "Nuvemshop",
+      "BigCommerce",
+      "Adobe Commerce (Magento)"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://medusajs.com",
+    "repository": "https://github.com/medusajs/medusa",
+    "tags": [
+      "ecommerce",
+      "loja virtual",
+      "shopify",
+      "headless commerce",
+      "vendas online",
+      "carrinho",
+      "nodejs"
+    ]
+  },
+  {
+    "id": "prestashop",
+    "name": "PrestaShop",
+    "description": "Sistema completo de loja virtual para gerenciar catálogo de produtos, estoque, frete e pagamentos.",
+    "category": "dev",
+    "replaces": [
+      "Shopify",
+      "Nuvemshop",
+      "Loja Integrada",
+      "Tray",
+      "Wix eCommerce"
+    ],
+    "license": "OSL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://prestashop.org",
+    "repository": "https://github.com/PrestaShop/PrestaShop",
+    "tags": [
+      "ecommerce",
+      "loja virtual",
+      "vendas",
+      "catalogo",
+      "php",
+      "shopify",
+      "varejo"
+    ]
+  },
+  {
+    "id": "gitlab-ce",
+    "name": "GitLab Community Edition",
+    "description": "Plataforma DevSecOps completa com repositórios Git, CI/CD, registro Docker e gestão de projetos.",
+    "category": "dev",
+    "replaces": [
+      "GitHub Enterprise",
+      "Bitbucket",
+      "Azure DevOps",
+      "CircleCI",
+      "Jenkins"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://about.gitlab.com",
+    "repository": "https://gitlab.com/gitlab-org/gitlab-foss",
+    "tags": [
+      "git",
+      "devops",
+      "ci-cd",
+      "pipelines",
+      "repositorios",
+      "devsecops",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "glitchtip",
+    "name": "GlitchTip",
+    "description": "Plataforma leve e aberta de rastreamento de erros, exceções e uptime compatível com SDKs Sentry.",
+    "category": "dev",
+    "replaces": [
+      "Sentry SaaS",
+      "Bugsnag",
+      "Rollbar",
+      "Raygun",
+      "Datadog Error Tracking"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://glitchtip.com",
+    "repository": "https://gitlab.com/glitchtip/glitchtip-backend",
+    "tags": [
+      "erros",
+      "sentry",
+      "monitoramento",
+      "debug",
+      "logs",
+      "apm",
+      "self-hosted"
     ]
   },
   {
@@ -286,10 +4012,12 @@
     "category": "produtividade",
     "replaces": [
       "Microsoft Office",
+      "Microsoft 365",
       "Microsoft Word",
       "Microsoft Excel",
       "Microsoft PowerPoint",
-      "Google Docs"
+      "Google Docs",
+      "WPS Office"
     ],
     "license": "MPL-2.0",
     "platforms": [
@@ -306,7 +4034,47 @@
       "apresentacao",
       "documentos",
       "word",
-      "excel"
+      "excel",
+      "powerpoint",
+      "escritorio"
+    ]
+  },
+  {
+    "id": "onlyoffice",
+    "name": "ONLYOFFICE Desktop Editors",
+    "description": "Suíte de escritório com máxima compatibilidade nativa para documentos DOCX, XLSX, PPTX e PDF.",
+    "category": "produtividade",
+    "replaces": [
+      "Microsoft Office",
+      "Microsoft 365",
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "WPS Office",
+      "Google Workspace"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://www.onlyoffice.com",
+    "repository": "https://github.com/ONLYOFFICE/DesktopEditors",
+    "tags": [
+      "office",
+      "docx",
+      "xlsx",
+      "pptx",
+      "word",
+      "excel",
+      "powerpoint",
+      "planilhas",
+      "documentos",
+      "escritorio"
     ]
   },
   {
@@ -318,13 +4086,18 @@
       "Notion",
       "Evernote",
       "Roam Research",
-      "OneNote"
+      "OneNote",
+      "Obsidian",
+      "Workflowy",
+      "RemNote"
     ],
     "license": "AGPL-3.0",
     "platforms": [
       "Windows",
       "Linux",
-      "macOS"
+      "macOS",
+      "Android",
+      "iOS"
     ],
     "site": "https://logseq.com",
     "repository": "https://github.com/logseq/logseq",
@@ -334,34 +4107,1338 @@
       "organizacao",
       "segundo cerebro",
       "estudo",
-      "wiki"
+      "wiki",
+      "flashcards",
+      "grafo",
+      "zettelkasten"
     ]
   },
   {
-    "id": "obsidian",
-    "name": "Obsidian",
-    "description": "Base de conhecimento pessoal em arquivos Markdown locais com grafo de conexões e plugins.",
+    "id": "joplin",
+    "name": "Joplin",
+    "description": "Aplicativo de anotações e tarefas em Markdown com sincronização criptografada ponta a ponta.",
+    "category": "produtividade",
+    "replaces": [
+      "Evernote",
+      "Microsoft OneNote",
+      "Apple Notes",
+      "Google Keep",
+      "Bear",
+      "Notion",
+      "Simplenote"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://joplinapp.org",
+    "repository": "https://github.com/laurent22/joplin",
+    "tags": [
+      "notas",
+      "anotacoes",
+      "evernote",
+      "markdown",
+      "caderno digital",
+      "criptografia",
+      "to-do",
+      "web clipper",
+      "sincronizacao"
+    ]
+  },
+  {
+    "id": "appflowy",
+    "name": "AppFlowy",
+    "description": "Espaço de trabalho colaborativo para notas, wikis, bancos de dados, quadros Kanban e IA local.",
     "category": "produtividade",
     "replaces": [
       "Notion",
-      "Evernote",
-      "OneNote",
-      "Bear"
+      "Confluence",
+      "Coda",
+      "Airtable",
+      "ClickUp",
+      "Monday.com"
     ],
-    "license": "EULA (Gratuito / Ecossistema Comunitário)",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://appflowy.io",
+    "repository": "https://github.com/AppFlowy-IO/AppFlowy",
+    "tags": [
+      "notion",
+      "workspace",
+      "wiki",
+      "notas",
+      "kanban",
+      "tabelas",
+      "gestao de projetos",
+      "offline",
+      "organizacao"
+    ]
+  },
+  {
+    "id": "affine",
+    "name": "AFFiNE",
+    "description": "Espaço de trabalho unificado que funde documentos em blocos, tabelas e quadro branco infinito.",
+    "category": "produtividade",
+    "replaces": [
+      "Notion",
+      "Miro",
+      "Coda",
+      "Confluence",
+      "Whimsical",
+      "Monday.com"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://affine.pro",
+    "repository": "https://github.com/toeverything/AFFiNE",
+    "tags": [
+      "notion",
+      "miro",
+      "quadro branco",
+      "whiteboard",
+      "wiki",
+      "notas",
+      "canvas",
+      "planejamento",
+      "local-first"
+    ]
+  },
+  {
+    "id": "siyuan",
+    "name": "SiYuan",
+    "description": "Sistema de gestão de conhecimento local-first com edição em blocos, links bidirecionais e busca SQL.",
+    "category": "produtividade",
+    "replaces": [
+      "Notion",
+      "Obsidian",
+      "Roam Research",
+      "RemNote",
+      "Craft",
+      "Evernote"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://b3log.org/siyuan",
+    "repository": "https://github.com/siyuan-note/siyuan",
+    "tags": [
+      "notas",
+      "segundo cerebro",
+      "pkm",
+      "blocos",
+      "markdown",
+      "repeticao espacada",
+      "obsidian",
+      "notion"
+    ]
+  },
+  {
+    "id": "trilium",
+    "name": "Trilium Notes",
+    "description": "Aplicativo hierárquico de notas pessoais focado em construir grandes bases de conhecimento e wikis.",
+    "category": "produtividade",
+    "replaces": [
+      "Evernote",
+      "Microsoft OneNote",
+      "Notion",
+      "Obsidian",
+      "DevonThink"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://triliumnext.github.io/Docs",
+    "repository": "https://github.com/TriliumNext/Notes",
+    "tags": [
+      "notas",
+      "wiki pessoal",
+      "arvore de notas",
+      "conhecimento",
+      "self-hosted",
+      "onenote",
+      "mapa mental"
+    ]
+  },
+  {
+    "id": "standard-notes",
+    "name": "Standard Notes",
+    "description": "Aplicativo de notas seguro e auditado com criptografia ponta a ponta para textos, listas e planilhas.",
+    "category": "produtividade",
+    "replaces": [
+      "Apple Notes",
+      "Google Keep",
+      "Evernote",
+      "Bear",
+      "Simplenote"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://standardnotes.com",
+    "repository": "https://github.com/standardnotes/app",
+    "tags": [
+      "notas seguras",
+      "criptografia",
+      "privacidade",
+      "anotacoes",
+      "diario",
+      "senhas",
+      "sincronizacao"
+    ]
+  },
+  {
+    "id": "zettlr",
+    "name": "Zettlr",
+    "description": "Editor Markdown acadêmico para pesquisadores e escritores com integração a citações ABNT/Zotero.",
+    "category": "produtividade",
+    "replaces": [
+      "Scrivener",
+      "Ulysses",
+      "iA Writer",
+      "Typora",
+      "Overleaf",
+      "Microsoft Word"
+    ],
+    "license": "GPL-3.0",
     "platforms": [
       "Windows",
       "Linux",
       "macOS"
     ],
-    "site": "https://obsidian.md",
-    "repository": "https://github.com/obsidianmd",
+    "site": "https://www.zettlr.com",
+    "repository": "https://github.com/Zettlr/Zettlr",
     "tags": [
-      "notas",
+      "escrita academica",
       "markdown",
-      "conhecimento",
+      "tcc",
+      "artigos",
+      "zettelkasten",
+      "citacoes",
+      "latex",
+      "pandoc"
+    ]
+  },
+  {
+    "id": "marktext",
+    "name": "MarkText",
+    "description": "Editor Markdown elegante e sem distrações com pré-visualização em tempo real, tabelas e matemática.",
+    "category": "produtividade",
+    "replaces": [
+      "Typora",
+      "iA Writer",
+      "Bear",
+      "Ulysses",
+      "Byword"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://github.com/marktext/marktext",
+    "repository": "https://github.com/marktext/marktext",
+    "tags": [
+      "markdown",
+      "typora",
+      "editor de texto",
+      "escrita",
+      "foco",
+      "diagramas",
+      "katex"
+    ]
+  },
+  {
+    "id": "nextcloud",
+    "name": "Nextcloud",
+    "description": "Plataforma de nuvem privada para armazenar arquivos, fotos, calendário, e-mail e edição colaborativa.",
+    "category": "produtividade",
+    "replaces": [
+      "Google Drive",
+      "Google Workspace",
+      "Microsoft OneDrive",
+      "Microsoft 365",
+      "Dropbox",
+      "Apple iCloud",
+      "Box"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://nextcloud.com",
+    "repository": "https://github.com/nextcloud/server",
+    "tags": [
+      "nuvem",
+      "cloud storage",
+      "google drive",
+      "dropbox",
+      "onedrive",
+      "colaboracao",
+      "arquivos",
+      "self-hosted",
+      "backup"
+    ]
+  },
+  {
+    "id": "plane",
+    "name": "Plane",
+    "description": "Plataforma moderna de gestão de projetos, sprints, ciclos, roadmaps, wikis e rastreamento de tarefas.",
+    "category": "produtividade",
+    "replaces": [
+      "Jira",
+      "Linear",
+      "Asana",
+      "ClickUp",
+      "Monday.com",
+      "Shortcut",
+      "Trello"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://plane.so",
+    "repository": "https://github.com/makeplane/plane",
+    "tags": [
+      "gestao de projetos",
+      "jira",
+      "linear",
+      "scrum",
+      "agile",
+      "kanban",
+      "tarefas",
+      "issues",
+      "equipe"
+    ]
+  },
+  {
+    "id": "taiga",
+    "name": "Taiga",
+    "description": "Sistema ágil de gerenciamento de projetos para equipes com suporte a Scrum, Kanban, épicos e sprints.",
+    "category": "produtividade",
+    "replaces": [
+      "Atlassian Jira",
+      "Asana",
+      "Trello",
+      "Azure Boards",
+      "Monday.com"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://taiga.io",
+    "repository": "https://github.com/taigaio/taiga-back",
+    "tags": [
+      "scrum",
+      "kanban",
+      "agile",
+      "gestao de projetos",
+      "jira",
+      "backlog",
+      "sprints"
+    ]
+  },
+  {
+    "id": "planka",
+    "name": "Planka",
+    "description": "Quadro Kanban colaborativo em tempo real, leve e elegante para organizar projetos, listas e cartões.",
+    "category": "produtividade",
+    "replaces": [
+      "Trello",
+      "MeisterTask",
+      "Asana",
+      "Monday.com",
+      "Pipefy"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://planka.app",
+    "repository": "https://github.com/plankanban/planka",
+    "tags": [
+      "kanban",
+      "trello",
+      "quadro de tarefas",
+      "projetos",
+      "equipe",
       "organizacao",
-      "estudos"
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "vikunja",
+    "name": "Vikunja",
+    "description": "Gerenciador de tarefas e listas com visão em lista, Kanban, gráfico de Gantt e sincronização CalDAV.",
+    "category": "produtividade",
+    "replaces": [
+      "Todoist",
+      "TickTick",
+      "Microsoft To Do",
+      "Things 3",
+      "OmniFocus",
+      "Any.do",
+      "Wunderlist"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android"
+    ],
+    "site": "https://vikunja.io",
+    "repository": "https://code.vikunja.io/api",
+    "tags": [
+      "to-do",
+      "tarefas",
+      "todoist",
+      "lembretes",
+      "kanban",
+      "gantt",
+      "produtividade",
+      "gtd"
+    ]
+  },
+  {
+    "id": "super-productivity",
+    "name": "Super Productivity",
+    "description": "Gerenciador avançado de tarefas, planejador diário e controle de tempo com Pomodoro e Jira/GitHub.",
+    "category": "produtividade",
+    "replaces": [
+      "Todoist",
+      "Toggl Track",
+      "Sunsama",
+      "Akiflow",
+      "TickTick",
+      "Motion"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android"
+    ],
+    "site": "https://super-productivity.com",
+    "repository": "https://github.com/johannesjo/super-productivity",
+    "tags": [
+      "tarefas",
+      "pomodoro",
+      "time tracker",
+      "foco",
+      "planejamento diario",
+      "to-do",
+      "produtividade"
+    ]
+  },
+  {
+    "id": "activitywatch",
+    "name": "ActivityWatch",
+    "description": "Rastreador automático de tempo de uso do computador e apps que armazena tudo localmente no seu PC.",
+    "category": "produtividade",
+    "replaces": [
+      "RescueTime",
+      "Timing",
+      "DeskTime",
+      "ManicTime",
+      "Hubstaff",
+      "Toggl Track"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "site": "https://activitywatch.net",
+    "repository": "https://github.com/ActivityWatch/activitywatch",
+    "tags": [
+      "tempo de tela",
+      "time tracking",
+      "produtividade",
+      "foco",
+      "estatisticas de uso",
+      "privacidade",
+      "rescuetime"
+    ]
+  },
+  {
+    "id": "kimai",
+    "name": "Kimai",
+    "description": "Sistema de controle de horas trabalhadas (time-tracking), projetos e emissão de faturas para equipes.",
+    "category": "produtividade",
+    "replaces": [
+      "Toggl Track",
+      "Clockify",
+      "Harvest",
+      "Everhour",
+      "Hubstaff"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://www.kimai.org",
+    "repository": "https://github.com/kimai/kimai",
+    "tags": [
+      "timesheet",
+      "controle de horas",
+      "freelancer",
+      "faturamento",
+      "toggl",
+      "clockify",
+      "gestao de tempo"
+    ]
+  },
+  {
+    "id": "nocodb",
+    "name": "NocoDB",
+    "description": "Plataforma no-code que transforma qualquer banco de dados em uma planilha inteligente colaborativa.",
+    "category": "produtividade",
+    "replaces": [
+      "Airtable",
+      "Smartsheet",
+      "Monday.com",
+      "Google Sheets",
+      "Notion Databases"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://nocodb.com",
+    "repository": "https://github.com/nocodb/nocodb",
+    "tags": [
+      "airtable",
+      "planilha",
+      "banco de dados",
+      "no-code",
+      "formularios",
+      "kanban",
+      "galeria",
+      "automacao"
+    ]
+  },
+  {
+    "id": "baserow",
+    "name": "Baserow",
+    "description": "Banco de dados visual no-code em formato de planilha para criar sistemas, CRMs e portais sem código.",
+    "category": "produtividade",
+    "replaces": [
+      "Airtable",
+      "Smartsheet",
+      "Coda",
+      "Monday.com",
+      "Softr"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://baserow.io",
+    "repository": "https://gitlab.com/baserow/baserow",
+    "tags": [
+      "airtable",
+      "no-code",
+      "planilha",
+      "database",
+      "crm",
+      "formularios",
+      "colaboracao"
+    ]
+  },
+  {
+    "id": "twenty",
+    "name": "Twenty CRM",
+    "description": "Sistema de CRM moderno de código aberto para gerenciar clientes, vendas, oportunidades e e-mails.",
+    "category": "produtividade",
+    "replaces": [
+      "Salesforce",
+      "HubSpot CRM",
+      "Pipedrive",
+      "Zoho CRM",
+      "Attio",
+      "RD Station CRM"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://twenty.com",
+    "repository": "https://github.com/twentyhq/twenty",
+    "tags": [
+      "crm",
+      "vendas",
+      "clientes",
+      "funil de vendas",
+      "pipeline",
+      "hubspot",
+      "pipedrive",
+      "negocios"
+    ]
+  },
+  {
+    "id": "cal-com",
+    "name": "Cal.com",
+    "description": "Infraestrutura de agendamento de reuniões e compromissos integrada com calendários e vídeo.",
+    "category": "produtividade",
+    "replaces": [
+      "Calendly",
+      "Acuity Scheduling",
+      "SavvyCal",
+      "YouCanBookMe",
+      "Doodle",
+      "Microsoft Bookings"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://cal.com",
+    "repository": "https://github.com/calcom/cal.com",
+    "tags": [
+      "agendamento",
+      "calendly",
+      "calendario",
+      "reunioes",
+      "agenda",
+      "consultoria",
+      "reservas"
+    ]
+  },
+  {
+    "id": "stirling-pdf",
+    "name": "Stirling-PDF",
+    "description": "Canivete suíço para manipular PDFs localmente: juntar, dividir, comprimir, converter, assinar e OCR.",
+    "category": "produtividade",
+    "replaces": [
+      "Adobe Acrobat Pro",
+      "iLovePDF",
+      "Smallpdf",
+      "Foxit PDF Editor",
+      "Nitro PDF Pro",
+      "PDF24",
+      "Sejda PDF"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://stirlingpdf.io",
+    "repository": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "tags": [
+      "pdf",
+      "editor de pdf",
+      "conversor de pdf",
+      "ocr",
+      "ilovepdf",
+      "acrobat",
+      "comprimir pdf",
+      "juntar pdf",
+      "assinatura"
+    ]
+  },
+  {
+    "id": "pdfarranger",
+    "name": "PDF Arranger",
+    "description": "Aplicativo desktop leve e rápido para juntar, dividir, girar, cortar e reordenar páginas de PDFs.",
+    "category": "produtividade",
+    "replaces": [
+      "Adobe Acrobat",
+      "iLovePDF",
+      "Smallpdf",
+      "Foxit PDF"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://github.com/pdfarranger/pdfarranger",
+    "repository": "https://github.com/pdfarranger/pdfarranger",
+    "tags": [
+      "pdf",
+      "juntar pdf",
+      "dividir pdf",
+      "organizar paginas",
+      "documentos",
+      "leve"
+    ]
+  },
+  {
+    "id": "okular",
+    "name": "Okular",
+    "description": "Leitor universal de documentos (PDF, EPUB, DjVu, quadrinhos) com anotações avançadas e assinatura.",
+    "category": "produtividade",
+    "replaces": [
+      "Adobe Acrobat Reader",
+      "Foxit PDF Reader",
+      "PDF Expert",
+      "Nitro Reader"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://okular.kde.org",
+    "repository": "https://invent.kde.org/graphics/okular",
+    "tags": [
+      "leitor de pdf",
+      "pdf",
+      "epub",
+      "anotacao em pdf",
+      "assinatura digital",
+      "marcacao",
+      "leitura"
+    ]
+  },
+  {
+    "id": "sumatrapdf",
+    "name": "Sumatra PDF",
+    "description": "Leitor de PDF, eBooks (ePub, Mobi) e quadrinhos extremamente leve, instantâneo e portátil.",
+    "category": "produtividade",
+    "replaces": [
+      "Adobe Acrobat Reader",
+      "Foxit Reader",
+      "PDF-XChange Viewer"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://www.sumatrapdfreader.org",
+    "repository": "https://github.com/sumatrapdfreader/sumatrapdf",
+    "tags": [
+      "pdf",
+      "leitor de pdf",
+      "ebook",
+      "epub",
+      "cbr",
+      "cbz",
+      "quadrinhos",
+      "ultraleve",
+      "portatil"
+    ]
+  },
+  {
+    "id": "calibre",
+    "name": "Calibre",
+    "description": "Gerenciador completo de biblioteca de e-books para ler, catalogar, editar e converter formatos.",
+    "category": "produtividade",
+    "replaces": [
+      "Amazon Kindle App",
+      "Adobe Digital Editions",
+      "Apple Books",
+      "BookFusion",
+      "Alfa eBooks Manager"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://calibre-ebook.com",
+    "repository": "https://github.com/kovidgoyal/calibre",
+    "tags": [
+      "ebook",
+      "livros",
+      "epub",
+      "mobi",
+      "azw3",
+      "kindle",
+      "conversor de livros",
+      "biblioteca digital",
+      "leitura"
+    ]
+  },
+  {
+    "id": "foliate",
+    "name": "Foliate",
+    "description": "Leitor moderno e elegante de e-books para desktop com anotações, dicionário, tradução e síntese de voz.",
+    "category": "produtividade",
+    "replaces": [
+      "Amazon Kindle Desktop",
+      "Apple Books",
+      "Kobo Desktop",
+      "Adobe Digital Editions"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux"
+    ],
+    "site": "https://johnfactotum.github.io/foliate",
+    "repository": "https://github.com/johnfactotum/foliate",
+    "tags": [
+      "ebook",
+      "leitor de livros",
+      "epub",
+      "mobi",
+      "kindle",
+      "leitura",
+      "anotacoes"
+    ]
+  },
+  {
+    "id": "zotero",
+    "name": "Zotero",
+    "description": "Assistente de pesquisa para coletar, organizar, grifar PDFs e gerar citações e bibliografias (ABNT).",
+    "category": "produtividade",
+    "replaces": [
+      "Mendeley",
+      "EndNote",
+      "Paperpile",
+      "Citavi",
+      "RefWorks",
+      "ReadCube Papers"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://www.zotero.org",
+    "repository": "https://github.com/zotero/zotero",
+    "tags": [
+      "pesquisa",
+      "academico",
+      "referencias",
+      "bibliografia",
+      "abnt",
+      "artigos cientificos",
+      "pdf",
+      "tcc",
+      "mestrado"
+    ]
+  },
+  {
+    "id": "thunderbird",
+    "name": "Mozilla Thunderbird",
+    "description": "Cliente completo de e-mail, calendário, contatos, tarefas e RSS com criptografia OpenPGP nativa.",
+    "category": "produtividade",
+    "replaces": [
+      "Microsoft Outlook",
+      "Outlook",
+      "Apple Mail",
+      "Spark Mail",
+      "eM Client",
+      "Postbox",
+      "Superhuman"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "site": "https://www.thunderbird.net",
+    "repository": "https://hg.mozilla.org/comm-central",
+    "tags": [
+      "email",
+      "outlook",
+      "calendario",
+      "agenda",
+      "rss",
+      "imap",
+      "pgp",
+      "contatos",
+      "escritorio"
+    ]
+  },
+  {
+    "id": "freeplane",
+    "name": "Freeplane",
+    "description": "Aplicativo poderoso para criação de mapas mentais (mind maps), brainstorming e organização de ideias.",
+    "category": "produtividade",
+    "replaces": [
+      "XMind",
+      "MindMeister",
+      "MindNode",
+      "MindManager",
+      "EdrawMind",
+      "Coggle"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://docs.freeplane.org",
+    "repository": "https://github.com/freeplane/freeplane",
+    "tags": [
+      "mapa mental",
+      "mind map",
+      "brainstorming",
+      "ideias",
+      "estudo",
+      "planejamento",
+      "xmind"
+    ]
+  },
+  {
+    "id": "gnucash",
+    "name": "GnuCash",
+    "description": "Software de contabilidade financeira pessoal e para pequenas empresas com partidas dobradas.",
+    "category": "produtividade",
+    "replaces": [
+      "Quicken",
+      "QuickBooks",
+      "Microsoft Money",
+      "ContaAzul",
+      "Sage 50"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.gnucash.org",
+    "repository": "https://github.com/Gnucash/gnucash",
+    "tags": [
+      "financas",
+      "contabilidade",
+      "orcamento",
+      "despesas",
+      "investimentos",
+      "fluxo de caixa",
+      "empresa"
+    ]
+  },
+  {
+    "id": "actual-budget",
+    "name": "Actual Budget",
+    "description": "Aplicativo rápido de finanças pessoais e orçamento por envelopes com foco em privacidade local.",
+    "category": "produtividade",
+    "replaces": [
+      "YNAB (You Need A Budget)",
+      "Monarch Money",
+      "Mobills",
+      "Organizze",
+      "Minhas Economias",
+      "PocketGuard"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://actualbudget.org",
+    "repository": "https://github.com/actualbudget/actual",
+    "tags": [
+      "financas pessoais",
+      "orcamento",
+      "ynab",
+      "controle de gastos",
+      "dinheiro",
+      "economia",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "firefly-iii",
+    "name": "Firefly III",
+    "description": "Gerenciador auto-hospedado de finanças pessoais com relatórios detalhados, metas, contas e regras.",
+    "category": "produtividade",
+    "replaces": [
+      "YNAB",
+      "Mint",
+      "Quicken",
+      "Mobills",
+      "Organizze"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://www.firefly-iii.org",
+    "repository": "https://github.com/firefly-iii/firefly-iii",
+    "tags": [
+      "financas",
+      "controle financeiro",
+      "despesas",
+      "orcamento",
+      "bancos",
+      "relatorios",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "paperless-ngx",
+    "name": "Paperless-ngx",
+    "description": "Sistema que transforma documentos e recibos digitalizados em uma biblioteca pesquisável com OCR.",
+    "category": "produtividade",
+    "replaces": [
+      "Adobe Scan",
+      "DocuWare",
+      "Evernote Scannable",
+      "DEVONthink",
+      "Laserfiche"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://docs.paperless-ngx.com",
+    "repository": "https://github.com/paperless-ngx/paperless-ngx",
+    "tags": [
+      "ged",
+      "ocr",
+      "digitalizacao",
+      "documentos",
+      "recibos",
+      "arquivo digital",
+      "pdf",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "docuseal",
+    "name": "DocuSeal",
+    "description": "Plataforma aberta para criação de formulários, preenchimento e assinatura digital de documentos PDF.",
+    "category": "produtividade",
+    "replaces": [
+      "DocuSign",
+      "Adobe Sign",
+      "Clicksign",
+      "Autentique",
+      "PandaDoc",
+      "Dropbox Sign (HelloSign)"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://www.docuseal.com",
+    "repository": "https://github.com/docusealco/docuseal",
+    "tags": [
+      "assinatura digital",
+      "assinatura eletronica",
+      "docusign",
+      "contratos",
+      "pdf",
+      "juridico",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "chatwoot",
+    "name": "Chatwoot",
+    "description": "Central de atendimento ao cliente omnichannel integrada ao WhatsApp, Instagram, E-mail e site.",
+    "category": "produtividade",
+    "replaces": [
+      "Zendesk",
+      "Intercom",
+      "Freshdesk",
+      "Crisp",
+      "Tawk.to",
+      "Octadesk",
+      "Take Blip"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://www.chatwoot.com",
+    "repository": "https://github.com/chatwoot/chatwoot",
+    "tags": [
+      "atendimento",
+      "suporte",
+      "helpdesk",
+      "whatsapp",
+      "omnichannel",
+      "zendesk",
+      "intercom",
+      "chat ao vivo",
+      "crm"
+    ]
+  },
+  {
+    "id": "listmonk",
+    "name": "Listmonk",
+    "description": "Gerenciador auto-hospedado de newsletters e campanhas de e-mail marketing de altíssima velocidade.",
+    "category": "produtividade",
+    "replaces": [
+      "Mailchimp",
+      "RD Station Marketing",
+      "ActiveCampaign",
+      "Brevo (Sendinblue)",
+      "ConvertKit",
+      "Klaviyo"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://listmonk.app",
+    "repository": "https://github.com/knadh/listmonk",
+    "tags": [
+      "email marketing",
+      "newsletter",
+      "mailchimp",
+      "campanhas",
+      "marketing digital",
+      "leads",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "typebot",
+    "name": "Typebot",
+    "description": "Construtor visual de chatbots em blocos para formulários conversacionais, WhatsApp e qualificação.",
+    "category": "produtividade",
+    "replaces": [
+      "Typeform",
+      "Landbot",
+      "ManyChat",
+      "Drift",
+      "Jotform"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://typebot.io",
+    "repository": "https://github.com/baptisteArno/typebot.io",
+    "tags": [
+      "chatbot",
+      "typeform",
+      "formularios",
+      "whatsapp",
+      "automacao",
+      "leads",
+      "marketing",
+      "no-code"
+    ]
+  },
+  {
+    "id": "formbricks",
+    "name": "Formbricks",
+    "description": "Plataforma aberta de formulários interativos, pesquisas de satisfação (NPS/CSAT) e feedback.",
+    "category": "produtividade",
+    "replaces": [
+      "Typeform",
+      "SurveyMonkey",
+      "Google Forms",
+      "Jotform",
+      "Tally",
+      "Hotjar Surveys"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://formbricks.com",
+    "repository": "https://github.com/formbricks/formbricks",
+    "tags": [
+      "formularios",
+      "pesquisas",
+      "typeform",
+      "nps",
+      "feedback",
+      "questionario",
+      "produto"
+    ]
+  },
+  {
+    "id": "languagetool",
+    "name": "LanguageTool",
+    "description": "Corretor ortográfico, gramatical e de estilo multilíngue com suporte avançado ao Português.",
+    "category": "produtividade",
+    "replaces": [
+      "Grammarly",
+      "QuillBot",
+      "Microsoft Editor",
+      "ProWritingAid",
+      "LanguageTool Premium"
+    ],
+    "license": "LGPL-2.1",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://languagetool.org",
+    "repository": "https://github.com/languagetool-org/languagetool",
+    "tags": [
+      "corretor ortografico",
+      "gramatica",
+      "grammarly",
+      "redacao",
+      "escrita",
+      "portugues",
+      "revisao de texto"
+    ]
+  },
+  {
+    "id": "libretranslate",
+    "name": "LibreTranslate",
+    "description": "Tradutor automático de textos e documentos 100% livre, privado e auto-hospedável (funciona offline).",
+    "category": "produtividade",
+    "replaces": [
+      "Google Translate",
+      "Google Tradutor",
+      "DeepL Pro",
+      "Microsoft Translator"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://libretranslate.com",
+    "repository": "https://github.com/LibreTranslate/LibreTranslate",
+    "tags": [
+      "tradutor",
+      "traducao",
+      "idiomas",
+      "deepl",
+      "google tradutor",
+      "offline",
+      "api de traducao",
+      "privacidade"
+    ]
+  },
+  {
+    "id": "anythingllm",
+    "name": "AnythingLLM",
+    "description": "Aplicativo desktop para conversar com seus documentos PDF, planilhas e notas usando IA privada.",
+    "category": "produtividade",
+    "replaces": [
+      "ChatPDF",
+      "Google NotebookLM",
+      "Humata AI",
+      "ChatGPT Plus",
+      "CustomGPT"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://anythingllm.com",
+    "repository": "https://github.com/Mintplex-Labs/anything-llm",
+    "tags": [
+      "ia",
+      "rag",
+      "chatpdf",
+      "resumir pdf",
+      "documentos",
+      "llm",
+      "estudos",
+      "privacidade"
+    ]
+  },
+  {
+    "id": "perplexica",
+    "name": "Perplexica",
+    "description": "Motor de busca com inteligência artificial que pesquisa na internet e responde citando as fontes.",
+    "category": "produtividade",
+    "replaces": [
+      "Perplexity AI",
+      "ChatGPT Search",
+      "You.com",
+      "Google AI Overviews"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://github.com/ItzCrazyKns/Perplexica",
+    "repository": "https://github.com/ItzCrazyKns/Perplexica",
+    "tags": [
+      "perplexity",
+      "busca com ia",
+      "pesquisa",
+      "motor de busca",
+      "ollama",
+      "fontes",
+      "self-hosted"
     ]
   },
   {
@@ -373,14 +5450,18 @@
       "1Password",
       "LastPass",
       "Dashlane",
-      "Keeper"
+      "Keeper",
+      "NordPass",
+      "RoboForm"
     ],
     "license": "GPL-3.0",
     "platforms": [
       "Windows",
       "Linux",
       "macOS",
-      "Web"
+      "Web",
+      "Android",
+      "iOS"
     ],
     "site": "https://bitwarden.com",
     "repository": "https://github.com/bitwarden/clients",
@@ -389,6 +5470,188 @@
       "seguranca",
       "privacidade",
       "autenticacao",
+      "cofre",
+      "passkeys",
+      "2fa",
+      "gerenciador de senhas"
+    ]
+  },
+  {
+    "id": "vaultwarden",
+    "name": "Vaultwarden",
+    "description": "Servidor alternativo leve em Rust do Bitwarden para auto-hospedar seu cofre de senhas pessoal.",
+    "category": "utilitarios",
+    "replaces": [
+      "1Password Business",
+      "LastPass Enterprise",
+      "Bitwarden Cloud",
+      "Keeper"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://github.com/dani-garcia/vaultwarden",
+    "repository": "https://github.com/dani-garcia/vaultwarden",
+    "tags": [
+      "senhas",
+      "bitwarden",
+      "cofre de senhas",
+      "self-hosted",
+      "seguranca",
+      "rust",
+      "docker"
+    ]
+  },
+  {
+    "id": "keepassxc",
+    "name": "KeePassXC",
+    "description": "Gerenciador de senhas 100% offline com criptografia forte, preenchimento automático e suporte a 2FA.",
+    "category": "utilitarios",
+    "replaces": [
+      "1Password",
+      "LastPass",
+      "Enpass",
+      "Dashlane",
+      "Sticky Password"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://keepassxc.org",
+    "repository": "https://github.com/keepassxreboot/keepassxc",
+    "tags": [
+      "senhas",
+      "offline",
+      "seguranca",
+      "kdbx",
+      "cofre local",
+      "yubikey",
+      "totp",
+      "2fa"
+    ]
+  },
+  {
+    "id": "ente-auth",
+    "name": "Ente Auth",
+    "description": "Aplicativo autenticador de dois fatores (2FA / TOTP) com backup na nuvem criptografado ponta a ponta.",
+    "category": "utilitarios",
+    "replaces": [
+      "Authy",
+      "Google Authenticator",
+      "Microsoft Authenticator",
+      "Duo Mobile"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://ente.io/auth",
+    "repository": "https://github.com/ente-io/ente",
+    "tags": [
+      "2fa",
+      "autenticador",
+      "totp",
+      "seguranca",
+      "authy",
+      "codigo de verificacao",
+      "privacidade"
+    ]
+  },
+  {
+    "id": "aegis",
+    "name": "Aegis Authenticator",
+    "description": "Cofre seguro e criptografado para códigos de autenticação em duas etapas (2FA) com backups automáticos.",
+    "category": "utilitarios",
+    "replaces": [
+      "Google Authenticator",
+      "Authy",
+      "Microsoft Authenticator",
+      "LastPass Authenticator"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "site": "https://getaegis.app",
+    "repository": "https://github.com/beemdevelopment/Aegis",
+    "tags": [
+      "2fa",
+      "totp",
+      "autenticador",
+      "android",
+      "seguranca",
+      "biometria",
+      "backup"
+    ]
+  },
+  {
+    "id": "veracrypt",
+    "name": "VeraCrypt",
+    "description": "Software de criptografia de disco para criar cofres virtuais seguros ou proteger partições inteiras.",
+    "category": "utilitarios",
+    "replaces": [
+      "Microsoft BitLocker",
+      "Apple FileVault",
+      "AxCrypt",
+      "Folder Lock",
+      "Symantec Endpoint Encryption"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.veracrypt.fr",
+    "repository": "https://github.com/veracrypt/VeraCrypt",
+    "tags": [
+      "criptografia",
+      "disco criptografado",
+      "seguranca",
+      "privacidade",
+      "cofre de arquivos",
+      "pendrive seguro",
+      "bitlocker"
+    ]
+  },
+  {
+    "id": "cryptomator",
+    "name": "Cryptomator",
+    "description": "Criptografa seus arquivos localmente antes de sincronizá-los com Google Drive, OneDrive ou Dropbox.",
+    "category": "utilitarios",
+    "replaces": [
+      "Boxcryptor",
+      "NordLocker",
+      "AxCrypt",
+      "Tresorit"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://cryptomator.org",
+    "repository": "https://github.com/cryptomator/cryptomator",
+    "tags": [
+      "criptografia na nuvem",
+      "seguranca",
+      "privacidade",
+      "google drive",
+      "dropbox",
+      "onedrive",
       "cofre"
     ]
   },
@@ -399,7 +5662,9 @@
     "category": "utilitarios",
     "replaces": [
       "WinRAR",
-      "WinZip"
+      "WinZip",
+      "Bandizip",
+      "PowerArchiver"
     ],
     "license": "LGPL-3.0",
     "platforms": [
@@ -415,19 +5680,1793 @@
       "rar",
       "7zip",
       "arquivos",
-      "compressao"
+      "compressao",
+      "extrator",
+      "tar",
+      "iso"
+    ]
+  },
+  {
+    "id": "7zip",
+    "name": "7-Zip",
+    "description": "Compactador de arquivos ultraleve com altíssima taxa de compressão 7z e integração ao sistema.",
+    "category": "utilitarios",
+    "replaces": [
+      "WinRAR",
+      "WinZip",
+      "Express Zip",
+      "WinAce"
+    ],
+    "license": "LGPL-2.1",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.7-zip.org",
+    "repository": "https://github.com/ip7z/7zip",
+    "tags": [
+      "compactador",
+      "descompactador",
+      "7z",
+      "zip",
+      "rar",
+      "winrar",
+      "compressao",
+      "leve"
+    ]
+  },
+  {
+    "id": "vlc",
+    "name": "VLC Media Player",
+    "description": "Reprodutor multimídia universal que roda qualquer formato de vídeo, áudio, DVD e streaming de rede.",
+    "category": "utilitarios",
+    "replaces": [
+      "Windows Media Player",
+      "QuickTime Player",
+      "GOM Player",
+      "CyberLink PowerDVD",
+      "PotPlayer",
+      "KMPlayer"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://www.videolan.org/vlc",
+    "repository": "https://code.videolan.org/videolan/vlc",
+    "tags": [
+      "player de video",
+      "reprodutor de midia",
+      "mkv",
+      "mp4",
+      "dvd",
+      "iptv",
+      "legendas",
+      "codecs",
+      "audio"
+    ]
+  },
+  {
+    "id": "mpv",
+    "name": "mpv",
+    "description": "Reprodutor de vídeo minimalista, ultrarrápido e com qualidade de imagem superior acelerada por GPU.",
+    "category": "utilitarios",
+    "replaces": [
+      "PotPlayer",
+      "GOM Player",
+      "BS.Player",
+      "QuickTime Player",
+      "CyberLink PowerDVD"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "site": "https://mpv.io",
+    "repository": "https://github.com/mpv-player/mpv",
+    "tags": [
+      "player de video",
+      "hdr",
+      "4k",
+      "anime",
+      "leve",
+      "gpu",
+      "scripts",
+      "qualidade de imagem"
+    ]
+  },
+  {
+    "id": "iina",
+    "name": "IINA",
+    "description": "Reprodutor de mídia moderno para macOS baseado no mpv com Picture-in-Picture e legendas online.",
+    "category": "utilitarios",
+    "replaces": [
+      "QuickTime Player",
+      "Infuse Pro",
+      "Elmedia Player",
+      "Movist Pro"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "macOS"
+    ],
+    "site": "https://iina.io",
+    "repository": "https://github.com/iina/iina",
+    "tags": [
+      "macos",
+      "player de video",
+      "quicktime",
+      "hdr",
+      "picture in picture",
+      "legendas",
+      "midia"
+    ]
+  },
+  {
+    "id": "sharex",
+    "name": "ShareX",
+    "description": "Ferramenta avançada para captura de tela, gravação de vídeo/GIF, OCR, anotações e upload rápido.",
+    "category": "utilitarios",
+    "replaces": [
+      "Snagit",
+      "Lightshot",
+      "Gyazo Pro",
+      "CleanShot X",
+      "Loom",
+      "Bandicam"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://getsharex.com",
+    "repository": "https://github.com/ShareX/ShareX",
+    "tags": [
+      "printscreen",
+      "captura de tela",
+      "screenshot",
+      "gif",
+      "ocr",
+      "gravador de tela",
+      "color picker",
+      "produtividade"
+    ]
+  },
+  {
+    "id": "flameshot",
+    "name": "Flameshot",
+    "description": "Software prático e poderoso para captura de tela com edição imediata de setas, textos e desfoque.",
+    "category": "utilitarios",
+    "replaces": [
+      "Lightshot",
+      "Snagit",
+      "Windows Snipping Tool",
+      "CleanShot X",
+      "Monosnap"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://flameshot.org",
+    "repository": "https://github.com/flameshot-org/flameshot",
+    "tags": [
+      "screenshot",
+      "captura de tela",
+      "print",
+      "anotacao",
+      "lightshot",
+      "recorte de tela"
+    ]
+  },
+  {
+    "id": "rustdesk",
+    "name": "RustDesk",
+    "description": "Software de acesso e suporte remoto rápido e seguro com opção de servidor próprio auto-hospedado.",
+    "category": "utilitarios",
+    "replaces": [
+      "TeamViewer",
+      "AnyDesk",
+      "LogMeIn",
+      "Splashtop",
+      "Chrome Remote Desktop",
+      "Supremo"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://rustdesk.com",
+    "repository": "https://github.com/rustdesk/rustdesk",
+    "tags": [
+      "acesso remoto",
+      "suporte remoto",
+      "teamviewer",
+      "anydesk",
+      "area de trabalho remota",
+      "rdp",
+      "ti",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "moonlight",
+    "name": "Moonlight & Sunshine",
+    "description": "Streaming de jogos e área de trabalho remota com latência ultrabaixa em até 4K HDR a 120 FPS.",
+    "category": "utilitarios",
+    "replaces": [
+      "Parsec",
+      "GeForce NOW",
+      "Steam Remote Play",
+      "TeamViewer"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://moonlight-stream.org",
+    "repository": "https://github.com/moonlight-stream/moonlight-qt",
+    "tags": [
+      "cloud gaming",
+      "streaming de jogos",
+      "parsec",
+      "acesso remoto",
+      "baixa latencia",
+      "gamepad",
+      "4k"
+    ]
+  },
+  {
+    "id": "localsend",
+    "name": "LocalSend",
+    "description": "Compartilhamento rápido de arquivos e textos entre celulares e PCs na rede Wi-Fi sem usar internet.",
+    "category": "utilitarios",
+    "replaces": [
+      "Apple AirDrop",
+      "Quick Share",
+      "SHAREit",
+      "Send Anywhere",
+      "WeTransfer",
+      "AirDroid"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://localsend.org",
+    "repository": "https://github.com/localsend/localsend",
+    "tags": [
+      "transferencia de arquivos",
+      "airdrop",
+      "wifi",
+      "rede local",
+      "compartilhar",
+      "celular para pc",
+      "offline"
+    ]
+  },
+  {
+    "id": "syncthing",
+    "name": "Syncthing",
+    "description": "Sincronização contínua e descentralizada (P2P) de pastas entre dispositivos sem nuvem de terceiros.",
+    "category": "utilitarios",
+    "replaces": [
+      "Resilio Sync",
+      "Dropbox",
+      "Google Drive Backup",
+      "OneDrive",
+      "GoodSync"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "site": "https://syncthing.net",
+    "repository": "https://github.com/syncthing/syncthing",
+    "tags": [
+      "sincronizacao",
+      "backup",
+      "p2p",
+      "arquivos",
+      "privacidade",
+      "sem nuvem",
+      "rede local"
+    ]
+  },
+  {
+    "id": "qbittorrent",
+    "name": "qBittorrent",
+    "description": "Cliente BitTorrent leve, completo, com busca integrada e 100% livre de anúncios ou bloatware.",
+    "category": "utilitarios",
+    "replaces": [
+      "uTorrent",
+      "BitTorrent",
+      "BitComet",
+      "Vuze"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.qbittorrent.org",
+    "repository": "https://github.com/qbittorrent/qBittorrent",
+    "tags": [
+      "torrent",
+      "bittorrent",
+      "p2p",
+      "downloads",
+      "utorrent",
+      "magnet link",
+      "rss",
+      "sem anuncios"
+    ]
+  },
+  {
+    "id": "transmission",
+    "name": "Transmission",
+    "description": "Cliente BitTorrent minimalista, ultraleve e rápido com versões para desktop, terminal e interface web.",
+    "category": "utilitarios",
+    "replaces": [
+      "uTorrent",
+      "BitTorrent",
+      "Vuze"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://transmissionbt.com",
+    "repository": "https://github.com/transmission/transmission",
+    "tags": [
+      "torrent",
+      "bittorrent",
+      "downloads",
+      "leve",
+      "p2p",
+      "servidor"
+    ]
+  },
+  {
+    "id": "ab-download-manager",
+    "name": "AB Download Manager",
+    "description": "Gerenciador e acelerador de downloads moderno com múltiplas conexões, filas, agendamento e navegador.",
+    "category": "utilitarios",
+    "replaces": [
+      "Internet Download Manager (IDM)",
+      "IDM",
+      "Free Download Manager",
+      "JDownloader",
+      "EagleGet"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "site": "https://abdownloadmanager.com",
+    "repository": "https://github.com/amir1376/ab-download-manager",
+    "tags": [
+      "gerenciador de downloads",
+      "idm",
+      "acelerador de download",
+      "http",
+      "filas",
+      "velocidade"
+    ]
+  },
+  {
+    "id": "motrix",
+    "name": "Motrix",
+    "description": "Gerenciador de downloads completo e elegante com suporte a HTTP, FTP, BitTorrent e links Magnet.",
+    "category": "utilitarios",
+    "replaces": [
+      "Internet Download Manager (IDM)",
+      "uTorrent",
+      "Folx",
+      "Downie"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://motrix.app",
+    "repository": "https://github.com/agalwood/Motrix",
+    "tags": [
+      "downloads",
+      "aria2",
+      "torrent",
+      "magnet",
+      "idm",
+      "gerenciador"
+    ]
+  },
+  {
+    "id": "yt-dlp",
+    "name": "yt-dlp",
+    "description": "Ferramenta avançada para baixar vídeos, áudios, playlists e legendas de milhares de sites da web.",
+    "category": "utilitarios",
+    "replaces": [
+      "4K Video Downloader",
+      "aTube Catcher",
+      "SnapTube",
+      "Downie",
+      "ByClick Downloader"
+    ],
+    "license": "Unlicense",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://github.com/yt-dlp/yt-dlp",
+    "repository": "https://github.com/yt-dlp/yt-dlp",
+    "tags": [
+      "baixar videos",
+      "youtube downloader",
+      "mp3",
+      "mp4",
+      "twitch",
+      "tiktok",
+      "cli",
+      "playlists"
+    ]
+  },
+  {
+    "id": "parabolic",
+    "name": "Parabolic",
+    "description": "Interface gráfica moderna e fácil sobre o yt-dlp para baixar vídeos e áudios em MP4, WEBM e MP3.",
+    "category": "utilitarios",
+    "replaces": [
+      "4K Video Downloader",
+      "aTube Catcher",
+      "SnapTube",
+      "YTD Video Downloader",
+      "Downie"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "site": "https://nickvision.org",
+    "repository": "https://github.com/NickvisionApps/Parabolic",
+    "tags": [
+      "baixar video",
+      "youtube",
+      "mp3",
+      "mp4",
+      "conversor youtube",
+      "interface grafica",
+      "download"
+    ]
+  },
+  {
+    "id": "firefox",
+    "name": "Mozilla Firefox",
+    "description": "Navegador web independente focado em privacidade, proteção contra rastreamento e padrões abertos.",
+    "category": "utilitarios",
+    "replaces": [
+      "Google Chrome",
+      "Microsoft Edge",
+      "Opera",
+      "Apple Safari",
+      "Vivaldi"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://www.mozilla.org/firefox",
+    "repository": "https://github.com/mozilla-firefox/firefox",
+    "tags": [
+      "navegador",
+      "browser",
+      "internet",
+      "web",
+      "privacidade",
+      "chrome",
+      "extensoes",
+      "gecko"
+    ]
+  },
+  {
+    "id": "brave",
+    "name": "Brave Browser",
+    "description": "Navegador web rápido baseado em Chromium com bloqueador nativo de anúncios, pop-ups e rastreadores.",
+    "category": "utilitarios",
+    "replaces": [
+      "Google Chrome",
+      "Microsoft Edge",
+      "Opera GX",
+      "Vivaldi",
+      "Safari"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://brave.com",
+    "repository": "https://github.com/brave/brave-browser",
+    "tags": [
+      "navegador",
+      "browser",
+      "adblock",
+      "sem anuncios",
+      "privacidade",
+      "chromium",
+      "rapido"
+    ]
+  },
+  {
+    "id": "zen-browser",
+    "name": "Zen Browser",
+    "description": "Navegador moderno baseado no Firefox focado em produtividade com abas verticais e tela dividida.",
+    "category": "utilitarios",
+    "replaces": [
+      "Arc Browser",
+      "Google Chrome",
+      "SigmaOS",
+      "Vivaldi",
+      "Microsoft Edge"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://zen-browser.app",
+    "repository": "https://github.com/zen-browser/desktop",
+    "tags": [
+      "navegador",
+      "arc",
+      "abas verticais",
+      "workspaces",
+      "produtividade",
+      "firefox",
+      "design moderno"
+    ]
+  },
+  {
+    "id": "librewolf",
+    "name": "LibreWolf",
+    "description": "Versão independente do Firefox endurecida para máxima privacidade, sem telemetria e com uBlock nativo.",
+    "category": "utilitarios",
+    "replaces": [
+      "Google Chrome",
+      "Microsoft Edge",
+      "Opera"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://librewolf.net",
+    "repository": "https://codeberg.org/librewolf/source",
+    "tags": [
+      "navegador",
+      "privacidade",
+      "seguranca",
+      "anti-rastreamento",
+      "anonimato",
+      "ublock"
+    ]
+  },
+  {
+    "id": "ublock-origin",
+    "name": "uBlock Origin",
+    "description": "Bloqueador de conteúdo, anúncios, pop-ups e domínios maliciosos extremamente leve em CPU e RAM.",
+    "category": "utilitarios",
+    "replaces": [
+      "AdBlock",
+      "Adblock Plus",
+      "Total Adblock",
+      "Ghostery",
+      "AdGuard Pro"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android"
+    ],
+    "site": "https://ublockorigin.com",
+    "repository": "https://github.com/gorhill/uBlock",
+    "tags": [
+      "adblock",
+      "bloqueador de anuncios",
+      "extensao",
+      "privacidade",
+      "seguranca",
+      "anti-malware",
+      "web"
+    ]
+  },
+  {
+    "id": "pi-hole",
+    "name": "Pi-hole",
+    "description": "Servidor DNS Sinkhole que bloqueia anúncios e rastreadores em todos os dispositivos da sua rede.",
+    "category": "utilitarios",
+    "replaces": [
+      "NextDNS Pro",
+      "Cisco Umbrella",
+      "Firewalla",
+      "Control D"
+    ],
+    "license": "EUPL-1.2",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://pi-hole.net",
+    "repository": "https://github.com/pi-hole/pi-hole",
+    "tags": [
+      "dns",
+      "adblock de rede",
+      "raspberry pi",
+      "rede",
+      "privacidade",
+      "bloqueador",
+      "smart tv",
+      "roteador"
+    ]
+  },
+  {
+    "id": "adguard-home",
+    "name": "AdGuard Home",
+    "description": "Servidor DNS de rede para bloquear anúncios, rastreadores e phishing com controle parental e DoH.",
+    "category": "utilitarios",
+    "replaces": [
+      "NextDNS",
+      "OpenDNS Home VIP",
+      "CleanBrowsing",
+      "Norton Family"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://adguard.com/adguard-home/overview.html",
+    "repository": "https://github.com/AdguardTeam/AdGuardHome",
+    "tags": [
+      "dns",
+      "adblock",
+      "rede",
+      "controle parental",
+      "seguranca",
+      "self-hosted",
+      "privacidade"
+    ]
+  },
+  {
+    "id": "netbird",
+    "name": "NetBird",
+    "description": "Rede mesh VPN zero-trust baseada em WireGuard para conectar computadores e servidores privados.",
+    "category": "utilitarios",
+    "replaces": [
+      "LogMeIn Hamachi",
+      "Radmin VPN",
+      "ZeroTier Commercial",
+      "Tailscale Enterprise",
+      "Cisco AnyConnect",
+      "Twingate"
+    ],
+    "license": "BSD-3-Clause",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://netbird.io",
+    "repository": "https://github.com/netbirdio/netbird",
+    "tags": [
+      "vpn",
+      "wireguard",
+      "mesh",
+      "hamachi",
+      "rede local virtual",
+      "lan",
+      "zero-trust",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "element",
+    "name": "Element",
+    "description": "Mensageiro seguro com salas de comunidade, chat em equipe e chamadas de voz e vídeo via rede Matrix.",
+    "category": "utilitarios",
+    "replaces": [
+      "Discord",
+      "Slack",
+      "Microsoft Teams",
+      "WhatsApp",
+      "Telegram"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://element.io",
+    "repository": "https://github.com/element-hq/element-web",
+    "tags": [
+      "chat",
+      "mensagens",
+      "discord",
+      "slack",
+      "matrix",
+      "criptografia",
+      "chamada de voz",
+      "comunidade"
+    ]
+  },
+  {
+    "id": "mattermost",
+    "name": "Mattermost",
+    "description": "Plataforma de comunicação corporativa auto-hospedável com canais, chamadas de voz e compartilhamento.",
+    "category": "utilitarios",
+    "replaces": [
+      "Slack",
+      "Microsoft Teams",
+      "Discord",
+      "Google Chat"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://mattermost.com",
+    "repository": "https://github.com/mattermost/mattermost",
+    "tags": [
+      "slack",
+      "teams",
+      "chat corporativo",
+      "equipe",
+      "comunicacao",
+      "devops",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "zulip",
+    "name": "Zulip",
+    "description": "Chat de equipe organizado por tópicos que une a velocidade do tempo real à organização de e-mails.",
+    "category": "utilitarios",
+    "replaces": [
+      "Slack",
+      "Microsoft Teams",
+      "Discord",
+      "Twist",
+      "Basecamp"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://zulip.com",
+    "repository": "https://github.com/zulip/zulip",
+    "tags": [
+      "chat",
+      "slack",
+      "comunicacao",
+      "trabalho remoto",
+      "topicos",
+      "equipe",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "jitsi-meet",
+    "name": "Jitsi Meet",
+    "description": "Solução de videoconferência segura com compartilhamento de tela e salas sem exigir cadastro.",
+    "category": "utilitarios",
+    "replaces": [
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams",
+      "Cisco Webex",
+      "Skype",
+      "Whereby"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://jitsi.org/jitsi-meet",
+    "repository": "https://github.com/jitsi/jitsi-meet",
+    "tags": [
+      "videoconferencia",
+      "reuniao online",
+      "zoom",
+      "google meet",
+      "chamada de video",
+      "aulas",
+      "webrtc"
+    ]
+  },
+  {
+    "id": "mumble",
+    "name": "Mumble",
+    "description": "Chat de voz de código aberto com latência ultrabaixa, áudio posicional e criptografia para gamers.",
+    "category": "utilitarios",
+    "replaces": [
+      "TeamSpeak",
+      "Discord Voice",
+      "Ventrilo"
+    ],
+    "license": "BSD-3-Clause",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://www.mumble.info",
+    "repository": "https://github.com/mumble-voip/mumble",
+    "tags": [
+      "voip",
+      "chat de voz",
+      "teamspeak",
+      "discord",
+      "jogos",
+      "baixa latencia",
+      "servidor de voz"
+    ]
+  },
+  {
+    "id": "signal",
+    "name": "Signal",
+    "description": "Mensageiro privado com criptografia ponta a ponta auditada para textos, grupos e chamadas em HD.",
+    "category": "utilitarios",
+    "replaces": [
+      "WhatsApp",
+      "Telegram",
+      "Facebook Messenger",
+      "Apple iMessage",
+      "Viber"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://signal.org",
+    "repository": "https://github.com/signalapp",
+    "tags": [
+      "mensageiro",
+      "whatsapp",
+      "privacidade",
+      "criptografia",
+      "chat seguro",
+      "chamadas",
+      "seguranca"
+    ]
+  },
+  {
+    "id": "bleachbit",
+    "name": "BleachBit",
+    "description": "Limpador de disco e privacidade que apaga caches, cookies, arquivos temporários e tritura dados.",
+    "category": "utilitarios",
+    "replaces": [
+      "CCleaner",
+      "CleanMyMac",
+      "Avast Cleanup",
+      "Glary Utilities",
+      "Advanced SystemCare"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "site": "https://www.bleachbit.org",
+    "repository": "https://github.com/bleachbit/bleachbit",
+    "tags": [
+      "limpeza de pc",
+      "ccleaner",
+      "otimizacao",
+      "liberar espaco",
+      "privacidade",
+      "cache",
+      "manutencao"
+    ]
+  },
+  {
+    "id": "bcuninstaller",
+    "name": "Bulk Crap Uninstaller",
+    "description": "Desinstalador avançado para Windows que remove programas em lote, sobras de pastas e registros.",
+    "category": "utilitarios",
+    "replaces": [
+      "Revo Uninstaller Pro",
+      "IObit Uninstaller",
+      "Geek Uninstaller",
+      "Ashampoo UnInstaller"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://www.bcuninstaller.com",
+    "repository": "https://github.com/Klocman/Bulk-Crap-Uninstaller",
+    "tags": [
+      "desinstalador",
+      "revo uninstaller",
+      "limpeza",
+      "bloatware",
+      "registro do windows",
+      "remover programas"
+    ]
+  },
+  {
+    "id": "ventoy",
+    "name": "Ventoy",
+    "description": "Cria pendrives multiboot onde basta copiar vários arquivos ISO (Windows/Linux) sem reformatar.",
+    "category": "utilitarios",
+    "replaces": [
+      "Rufus",
+      "Windows Media Creation Tool",
+      "YUMI",
+      "PowerISO",
+      "UltraISO",
+      "WinSetupFromUSB"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "site": "https://www.ventoy.net",
+    "repository": "https://github.com/ventoy/Ventoy",
+    "tags": [
+      "pendrive bootavel",
+      "multiboot",
+      "iso",
+      "formatacao",
+      "windows",
+      "linux",
+      "instalacao",
+      "usb"
+    ]
+  },
+  {
+    "id": "rufus",
+    "name": "Rufus",
+    "description": "Utilitário ultraleve e rápido para formatar e criar pendrives USB bootáveis de sistemas operacionais.",
+    "category": "utilitarios",
+    "replaces": [
+      "Windows Media Creation Tool",
+      "UltraISO",
+      "PowerISO",
+      "WinToUSB"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://rufus.ie",
+    "repository": "https://github.com/pbatard/rufus",
+    "tags": [
+      "pendrive bootavel",
+      "iso",
+      "usb",
+      "windows 11",
+      "linux",
+      "formatar",
+      "boot"
+    ]
+  },
+  {
+    "id": "powertoys",
+    "name": "Microsoft PowerToys",
+    "description": "Conjunto de utilitários avançados para Windows com gerenciamento de janelas, OCR, seletor de cor e busca.",
+    "category": "utilitarios",
+    "replaces": [
+      "Raycast",
+      "Alfred",
+      "DisplayFusion",
+      "Magnet",
+      "TextSniper",
+      "Paste"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://learn.microsoft.com/windows/powertoys",
+    "repository": "https://github.com/microsoft/PowerToys",
+    "tags": [
+      "produtividade",
+      "windows",
+      "fancyzones",
+      "ocr",
+      "color picker",
+      "launcher",
+      "renomear em lote",
+      "atalhos"
+    ]
+  },
+  {
+    "id": "flow-launcher",
+    "name": "Flow Launcher",
+    "description": "Lançador rápido de aplicativos e buscador instantâneo de arquivos para Windows com plugins.",
+    "category": "utilitarios",
+    "replaces": [
+      "Alfred",
+      "Raycast",
+      "Listary",
+      "LaunchBar",
+      "Keypirinha"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://www.flowlauncher.com",
+    "repository": "https://github.com/Flow-Launcher/Flow.Launcher",
+    "tags": [
+      "launcher",
+      "busca rapida",
+      "atalhos",
+      "produtividade",
+      "spotlight",
+      "everything",
+      "windows"
+    ]
+  },
+  {
+    "id": "files-app",
+    "name": "Files",
+    "description": "Gerenciador de arquivos moderno para Windows com abas, painel duplo, tags coloridas e integração Git.",
+    "category": "utilitarios",
+    "replaces": [
+      "Directory Opus",
+      "XYplorer",
+      "Total Commander",
+      "Windows File Explorer",
+      "Clover"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://files.community",
+    "repository": "https://github.com/files-community/Files",
+    "tags": [
+      "gerenciador de arquivos",
+      "explorer",
+      "abas",
+      "painel duplo",
+      "windows",
+      "pastas",
+      "design moderno"
+    ]
+  },
+  {
+    "id": "double-commander",
+    "name": "Double Commander",
+    "description": "Gerenciador de arquivos com dois painéis lado a lado, renomeação em lote, busca avançada e FTP.",
+    "category": "utilitarios",
+    "replaces": [
+      "Total Commander",
+      "Directory Opus",
+      "Path Finder",
+      "FreeCommander"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://doublecmd.sourceforge.io",
+    "repository": "https://github.com/doublecmd/doublecmd",
+    "tags": [
+      "total commander",
+      "dual pane",
+      "painel duplo",
+      "arquivos",
+      "ftp",
+      "compactacao"
+    ]
+  },
+  {
+    "id": "duplicati",
+    "name": "Duplicati",
+    "description": "Software de backup automatizado com criptografia AES-256 e envio incremental para nuvens e S3.",
+    "category": "utilitarios",
+    "replaces": [
+      "Acronis True Image",
+      "Backblaze",
+      "Carbonite",
+      "EaseUS Todo Backup",
+      "Veeam Agent",
+      "Arq Backup"
+    ],
+    "license": "LGPL-2.1",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.duplicati.com",
+    "repository": "https://github.com/duplicati/duplicati",
+    "tags": [
+      "backup",
+      "copia de seguranca",
+      "nuvem",
+      "criptografia",
+      "agendamento",
+      "restauracao"
+    ]
+  },
+  {
+    "id": "clonezilla",
+    "name": "Clonezilla",
+    "description": "Sistema de clonagem e criação de imagem de discos e SSDs para backup completo e restauração.",
+    "category": "utilitarios",
+    "replaces": [
+      "Macrium Reflect",
+      "Acronis True Image",
+      "Norton Ghost",
+      "EaseUS Disk Copy",
+      "AOMEI Backupper"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://clonezilla.org",
+    "repository": "https://github.com/stevenshiau/clonezilla",
+    "tags": [
+      "clonagem de disco",
+      "ssd",
+      "hd",
+      "backup bare-metal",
+      "imagem de sistema",
+      "particao"
+    ]
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "description": "Analisador de protocolos de rede líder mundial para captura e inspeção profunda de tráfego e pacotes.",
+    "category": "utilitarios",
+    "replaces": [
+      "SolarWinds Network Performance Monitor",
+      "Fiddler Classic",
+      "Charles Proxy",
+      "Omnipeek",
+      "Paessler PRTG"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.wireshark.org",
+    "repository": "https://gitlab.com/wireshark/wireshark",
+    "tags": [
+      "rede",
+      "sniffer",
+      "pacotes",
+      "pcap",
+      "tcp-ip",
+      "seguranca",
+      "diagnostico de rede",
+      "pentest"
+    ]
+  },
+  {
+    "id": "portmaster",
+    "name": "Portmaster",
+    "description": "Firewall de aplicativos e monitor de conexões que bloqueia telemetria, rastreadores e DNS vazado.",
+    "category": "utilitarios",
+    "replaces": [
+      "GlassWire",
+      "Little Snitch",
+      "NetLimiter",
+      "ZoneAlarm"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "site": "https://safing.io",
+    "repository": "https://github.com/safing/portmaster",
+    "tags": [
+      "firewall",
+      "glasswire",
+      "privacidade",
+      "monitor de rede",
+      "bloquear telemetria",
+      "seguranca"
+    ]
+  },
+  {
+    "id": "cyberduck",
+    "name": "Cyberduck",
+    "description": "Cliente visual de transferência de arquivos para FTP, SFTP, WebDAV, Amazon S3, Google Drive e Azure.",
+    "category": "utilitarios",
+    "replaces": [
+      "Panic Transmit",
+      "CuteFTP",
+      "ExpanDrive",
+      "FlashFXP",
+      "FileZilla Pro"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "site": "https://cyberduck.io",
+    "repository": "https://github.com/iterate-ch/cyberduck",
+    "tags": [
+      "ftp",
+      "sftp",
+      "ssh",
+      "nuvem",
+      "s3",
+      "webdav",
+      "transferencia",
+      "servidor"
+    ]
+  },
+  {
+    "id": "kde-connect",
+    "name": "KDE Connect",
+    "description": "Integra celular e computador para compartilhar arquivos, notificações, área de transferência e mouse.",
+    "category": "utilitarios",
+    "replaces": [
+      "Microsoft Phone Link",
+      "Vincular ao Celular",
+      "AirDroid",
+      "Pushbullet",
+      "Apple Continuity"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://kdeconnect.kde.org",
+    "repository": "https://invent.kde.org/network/kdeconnect-kde",
+    "tags": [
+      "integracao celular",
+      "notificacoes",
+      "controle remoto",
+      "transferencia",
+      "clipboard",
+      "android",
+      "pc"
+    ]
+  },
+  {
+    "id": "deskflow",
+    "name": "Deskflow",
+    "description": "Compartilha um único mouse, teclado e área de transferência entre vários computadores na mesma rede.",
+    "category": "utilitarios",
+    "replaces": [
+      "Synergy",
+      "ShareMouse",
+      "Stardock Multiplicity",
+      "Logitech Flow",
+      "Mouse Without Borders"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://deskflow.org",
+    "repository": "https://github.com/deskflow/deskflow",
+    "tags": [
+      "kvm",
+      "synergy",
+      "mouse compartilhado",
+      "teclado compartilhado",
+      "multiplos pcs",
+      "rede local"
+    ]
+  },
+  {
+    "id": "openrgb",
+    "name": "OpenRGB",
+    "description": "Controle unificado e leve de iluminação RGB para placas-mãe, GPUs, RAMs e periféricos de várias marcas.",
+    "category": "utilitarios",
+    "replaces": [
+      "Corsair iCUE",
+      "Razer Synapse",
+      "ASUS Armoury Crate",
+      "MSI Center",
+      "SignalRGB Pro",
+      "NZXT CAM"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://openrgb.org",
+    "repository": "https://gitlab.com/CalcProgrammer1/OpenRGB",
+    "tags": [
+      "rgb",
+      "iluminacao",
+      "led",
+      "hardware",
+      "teclado",
+      "mouse",
+      "placa-mae",
+      "sem bloatware"
+    ]
+  },
+  {
+    "id": "librehardwaremonitor",
+    "name": "LibreHardwareMonitor",
+    "description": "Monitor leve de sensores de temperatura, voltagem, rotação de coolers, energia e uso de CPU/GPU.",
+    "category": "utilitarios",
+    "replaces": [
+      "AIDA64 Extreme",
+      "HWMonitor Pro",
+      "CCleaner Speccy",
+      "NZXT CAM",
+      "Core Temp"
+    ],
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+    "repository": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+    "tags": [
+      "hardware",
+      "temperatura",
+      "monitoramento",
+      "cpu",
+      "gpu",
+      "ventoinha",
+      "sensores",
+      "overclock"
+    ]
+  },
+  {
+    "id": "kutt",
+    "name": "Kutt",
+    "description": "Encurtador de links moderno com suporte a domínios próprios, senhas, validade e estatísticas.",
+    "category": "utilitarios",
+    "replaces": [
+      "Bitly",
+      "TinyURL Pro",
+      "Rebrandly",
+      "Short.io",
+      "Dub.co"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://kutt.it",
+    "repository": "https://github.com/thedevs-network/kutt",
+    "tags": [
+      "encurtador de url",
+      "encurtador de link",
+      "bitly",
+      "links",
+      "estatisticas",
+      "marketing",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "linkstack",
+    "name": "LinkStack",
+    "description": "Plataforma auto-hospedável para criar páginas personalizadas de 'link na bio' para redes sociais.",
+    "category": "utilitarios",
+    "replaces": [
+      "Linktree",
+      "Beacons",
+      "Bio.link",
+      "Carrd",
+      "Taplink"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://linkstack.org",
+    "repository": "https://github.com/LinkStackOrg/LinkStack",
+    "tags": [
+      "linktree",
+      "link na bio",
+      "instagram",
+      "redes sociais",
+      "portfolio",
+      "criadores",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "searxng",
+    "name": "SearXNG",
+    "description": "Metabuscador de internet privado que agrega resultados de 70+ buscadores sem rastrear ou perfilar.",
+    "category": "utilitarios",
+    "replaces": [
+      "Google Search",
+      "Microsoft Bing",
+      "Yahoo Search",
+      "Startpage"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://docs.searxng.org",
+    "repository": "https://github.com/searxng/searxng",
+    "tags": [
+      "buscador",
+      "google",
+      "pesquisa web",
+      "privacidade",
+      "metabuscador",
+      "sem anuncios",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "clamav",
+    "name": "ClamAV",
+    "description": "Antivírus e antimalware de código aberto para detectar trojans, vírus e ameaças em PCs e servidores.",
+    "category": "utilitarios",
+    "replaces": [
+      "Malwarebytes",
+      "Norton Antivirus",
+      "Kaspersky",
+      "Avast",
+      "McAfee",
+      "Bitdefender"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.clamav.net",
+    "repository": "https://github.com/Cisco-Talos/clamav",
+    "tags": [
+      "antivirus",
+      "antimalware",
+      "seguranca",
+      "virus",
+      "scanner",
+      "protecao",
+      "malwarebytes"
+    ]
+  },
+  {
+    "id": "winscp",
+    "name": "WinSCP",
+    "description": "Cliente gráfico popular de SFTP, FTP, SCP, WebDAV e S3 para Windows com sincronização e editor.",
+    "category": "utilitarios",
+    "replaces": [
+      "CuteFTP",
+      "FlashFXP",
+      "FileZilla Pro",
+      "ExpanDrive"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://winscp.net",
+    "repository": "https://github.com/winscp/winscp",
+    "tags": [
+      "sftp",
+      "ftp",
+      "scp",
+      "ssh",
+      "transferencia de arquivos",
+      "servidor",
+      "windows"
+    ]
+  },
+  {
+    "id": "filezilla",
+    "name": "FileZilla",
+    "description": "Cliente FTP, FTPS e SFTP rápido e multiplataforma para transferência de arquivos com servidores.",
+    "category": "utilitarios",
+    "replaces": [
+      "CuteFTP",
+      "SmartFTP",
+      "FlashFXP",
+      "WS_FTP Professional"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://filezilla-project.org",
+    "repository": "https://svn.filezilla-project.org/filezilla",
+    "tags": [
+      "ftp",
+      "sftp",
+      "ftps",
+      "transferencia de arquivos",
+      "hospedagem",
+      "upload",
+      "servidor"
+    ]
+  },
+  {
+    "id": "czkawka",
+    "name": "Czkawka",
+    "description": "Utilitário ultrarrápido em Rust para achar e apagar arquivos duplicados, fotos similares e lixo.",
+    "category": "utilitarios",
+    "replaces": [
+      "Gemini 2",
+      "Duplicate Cleaner Pro",
+      "CCleaner Duplicate Finder",
+      "Auslogics Duplicate File Finder"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://github.com/qarmin/czkawka",
+    "repository": "https://github.com/qarmin/czkawka",
+    "tags": [
+      "arquivos duplicados",
+      "limpeza de disco",
+      "fotos duplicadas",
+      "liberar espaco",
+      "organizador",
+      "rust"
+    ]
+  },
+  {
+    "id": "freefilesync",
+    "name": "FreeFileSync",
+    "description": "Comparador e sincronizador visual de pastas para criar backups rápidos em HDs externos, USB e rede.",
+    "category": "utilitarios",
+    "replaces": [
+      "GoodSync",
+      "Beyond Compare",
+      "Carbon Copy Cloner",
+      "ViceVersa Pro",
+      "SyncBackPro"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://freefilesync.org",
+    "repository": "https://github.com/hkneptune/FreeFileSync",
+    "tags": [
+      "sincronizacao de pastas",
+      "backup",
+      "hd externo",
+      "espelhamento",
+      "arquivos",
+      "copia"
+    ]
+  },
+  {
+    "id": "meld",
+    "name": "Meld",
+    "description": "Ferramenta visual de diff e merge para comparar diferenças entre arquivos de texto, código e pastas.",
+    "category": "utilitarios",
+    "replaces": [
+      "Beyond Compare",
+      "Araxis Merge",
+      "Kaleidoscope",
+      "UltraCompare"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://meldmerge.org",
+    "repository": "https://gitlab.gnome.org/GNOME/meld",
+    "tags": [
+      "diff",
+      "merge",
+      "comparar arquivos",
+      "comparar pastas",
+      "git",
+      "codigo"
+    ]
+  },
+  {
+    "id": "balena-etcher",
+    "name": "balenaEtcher",
+    "description": "Gravador seguro e fácil de imagens de sistema (ISO, IMG) em pendrives USB e cartões SD.",
+    "category": "utilitarios",
+    "replaces": [
+      "Win32 Disk Imager",
+      "PowerISO",
+      "UltraISO",
+      "Daemon Tools"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://etcher.balena.io",
+    "repository": "https://github.com/balena-io/etcher",
+    "tags": [
+      "pendrive bootavel",
+      "cartao sd",
+      "iso",
+      "img",
+      "raspberry pi",
+      "linux",
+      "gravador usb"
+    ]
+  },
+  {
+    "id": "greenshot",
+    "name": "Greenshot",
+    "description": "Ferramenta super leve de captura de tela para Windows com editor integrado de setas e marcações.",
+    "category": "utilitarios",
+    "replaces": [
+      "Lightshot",
+      "Snagit",
+      "PicPick",
+      "Windows Snipping Tool"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://getgreenshot.org",
+    "repository": "https://github.com/greenshot/greenshot",
+    "tags": [
+      "screenshot",
+      "captura de tela",
+      "printscreen",
+      "anotacao",
+      "leve",
+      "windows"
+    ]
+  },
+  {
+    "id": "naps2",
+    "name": "NAPS2",
+    "description": "Programa simples e rápido para digitalizar documentos em qualquer scanner e salvar em PDF com OCR.",
+    "category": "utilitarios",
+    "replaces": [
+      "VueScan",
+      "SilverFast",
+      "PaperScan Pro",
+      "Adobe Acrobat Scan"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.naps2.com",
+    "repository": "https://github.com/cyanfish/naps2",
+    "tags": [
+      "scanner",
+      "digitalizar",
+      "ocr",
+      "pdf",
+      "impressora",
+      "documentos",
+      "twain",
+      "wia"
     ]
   },
   {
     "id": "freecad",
     "name": "FreeCAD",
-    "description": "Modelador 3D paramétrico aberto para engenharia mecânica, design de peças e arquitetura BIM.",
+    "description": "Modelador 3D paramétrico aberto para engenharia mecânica, design de peças, CAM e arquitetura BIM.",
     "category": "outros",
     "replaces": [
       "AutoCAD",
       "SolidWorks",
       "Autodesk Fusion 360",
-      "Inventor"
+      "Autodesk Inventor",
+      "Autodesk Revit",
+      "Solid Edge",
+      "CATIA"
     ],
     "license": "LGPL-2.0",
     "platforms": [
@@ -443,7 +7482,863 @@
       "engenharia",
       "arquitetura",
       "modelagem parametrica",
-      "impressao 3d"
+      "impressao 3d",
+      "bim",
+      "cnc",
+      "step"
+    ]
+  },
+  {
+    "id": "librecad",
+    "name": "LibreCAD",
+    "description": "Programa de CAD 2D para plantas baixas arquitetônicas, desenhos técnicos mecânicos e arquivos DXF.",
+    "category": "outros",
+    "replaces": [
+      "AutoCAD LT",
+      "AutoCAD",
+      "DraftSight",
+      "BricsCAD",
+      "CorelCAD",
+      "QCAD Professional"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://librecad.org",
+    "repository": "https://github.com/LibreCAD/LibreCAD",
+    "tags": [
+      "cad 2d",
+      "autocad",
+      "planta baixa",
+      "desenho tecnico",
+      "dxf",
+      "dwg",
+      "arquitetura",
+      "engenharia civil"
+    ]
+  },
+  {
+    "id": "openscad",
+    "name": "OpenSCAD",
+    "description": "Modelador CAD 3D baseado em scripts de código para criar peças mecânicas paramétricas de alta precisão.",
+    "category": "outros",
+    "replaces": [
+      "SolidWorks",
+      "Autodesk Fusion 360",
+      "AutoCAD"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://openscad.org",
+    "repository": "https://github.com/openscad/openscad",
+    "tags": [
+      "cad",
+      "parametrico",
+      "impressao 3d",
+      "stl",
+      "modelagem por codigo",
+      "engenharia"
+    ]
+  },
+  {
+    "id": "kicad",
+    "name": "KiCad",
+    "description": "Suíte profissional de automação de design eletrônico (EDA) para esquemas e placas de circuito (PCB).",
+    "category": "outros",
+    "replaces": [
+      "Altium Designer",
+      "Autodesk Eagle",
+      "Cadence OrCAD",
+      "Proteus",
+      "EasyEDA Pro",
+      "DipTrace"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.kicad.org",
+    "repository": "https://gitlab.com/kicad/code/kicad",
+    "tags": [
+      "eletronica",
+      "pcb",
+      "circuito impresso",
+      "esquematico",
+      "eda",
+      "engenharia eletronica",
+      "hardware",
+      "gerber",
+      "arduino"
+    ]
+  },
+  {
+    "id": "prusaslicer",
+    "name": "PrusaSlicer",
+    "description": "Fatiador avançado para impressoras 3D (FDM e resina SLA) que gera G-code otimizado e suportes.",
+    "category": "outros",
+    "replaces": [
+      "Simplify3D",
+      "ChiTuBox Pro",
+      "Lychee Slicer Plus",
+      "Materialise Magics"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.prusa3d.com/page/prusaslicer_424",
+    "repository": "https://github.com/prusa3d/PrusaSlicer",
+    "tags": [
+      "impressao 3d",
+      "slicer",
+      "fatiador",
+      "gcode",
+      "stl",
+      "3mf",
+      "fdm",
+      "sla",
+      "maker"
+    ]
+  },
+  {
+    "id": "orcaslicer",
+    "name": "OrcaSlicer",
+    "description": "Fatiador moderno de impressão 3D com calibração integrada, perfis multimarca e controle via Wi-Fi.",
+    "category": "outros",
+    "replaces": [
+      "Simplify3D",
+      "Lychee Slicer Pro"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://github.com/SoftFever/OrcaSlicer",
+    "repository": "https://github.com/SoftFever/OrcaSlicer",
+    "tags": [
+      "impressao 3d",
+      "slicer",
+      "fatiador",
+      "klipper",
+      "bambu",
+      "gcode",
+      "calibracao",
+      "stl"
+    ]
+  },
+  {
+    "id": "cura",
+    "name": "UltiMaker Cura",
+    "description": "Software popular de fatiamento para impressão 3D compatível com centenas de impressoras e plugins.",
+    "category": "outros",
+    "replaces": [
+      "Simplify3D",
+      "Autodesk Netfabb"
+    ],
+    "license": "LGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://ultimaker.com/software/ultimaker-cura",
+    "repository": "https://github.com/Ultimaker/Cura",
+    "tags": [
+      "impressao 3d",
+      "slicer",
+      "fatiador",
+      "stl",
+      "obj",
+      "gcode",
+      "prototipagem"
+    ]
+  },
+  {
+    "id": "sweet-home-3d",
+    "name": "Sweet Home 3D",
+    "description": "Programa de design de interiores para desenhar a planta da casa em 2D e visualizar móveis em 3D.",
+    "category": "outros",
+    "replaces": [
+      "SketchUp Pro",
+      "Promob",
+      "Planner 5D",
+      "Floorplanner",
+      "Homestyler",
+      "Chief Architect"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.sweethome3d.com",
+    "repository": "https://sourceforge.net/p/sweethome3d/code",
+    "tags": [
+      "design de interiores",
+      "arquitetura",
+      "planta baixa",
+      "decoracao",
+      "moveis",
+      "casa 3d",
+      "reforma"
+    ]
+  },
+  {
+    "id": "qgis",
+    "name": "QGIS",
+    "description": "Sistema de Informação Geográfica (SIG/GIS) profissional para mapas, satélites e dados espaciais.",
+    "category": "outros",
+    "replaces": [
+      "Esri ArcGIS Pro",
+      "ArcGIS",
+      "MapInfo Professional",
+      "Global Mapper",
+      "AutoCAD Map 3D"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "site": "https://qgis.org",
+    "repository": "https://github.com/qgis/QGIS",
+    "tags": [
+      "gis",
+      "sig",
+      "geoprocessamento",
+      "mapas",
+      "cartografia",
+      "topografia",
+      "geografia",
+      "satelite",
+      "arcgis"
+    ]
+  },
+  {
+    "id": "octave",
+    "name": "GNU Octave",
+    "description": "Linguagem e ambiente de computação numérica para álgebra linear, cálculos matriciais e gráficos.",
+    "category": "outros",
+    "replaces": [
+      "MATLAB",
+      "Wolfram Mathematica",
+      "Maple",
+      "PTC Mathcad"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://octave.org",
+    "repository": "https://hg.savannah.gnu.org/hgweb/octave",
+    "tags": [
+      "matlab",
+      "matematica",
+      "calculo numerico",
+      "engenharia",
+      "matrizes",
+      "simulacao",
+      "ciencia",
+      "graficos"
+    ]
+  },
+  {
+    "id": "scilab",
+    "name": "Scilab",
+    "description": "Software científico para computação numérica, análise de dados e simulação de sistemas dinâmicos.",
+    "category": "outros",
+    "replaces": [
+      "MATLAB",
+      "Simulink",
+      "NI LabVIEW",
+      "Mathematica"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.scilab.org",
+    "repository": "https://gitlab.com/scilab/scilab",
+    "tags": [
+      "matlab",
+      "simulink",
+      "engenharia",
+      "controle",
+      "simulacao",
+      "matematica",
+      "fisica"
+    ]
+  },
+  {
+    "id": "jamovi",
+    "name": "jamovi",
+    "description": "Planilha estatística científica construída sobre a linguagem R para análises, ANOVA e regressões.",
+    "category": "outros",
+    "replaces": [
+      "IBM SPSS Statistics",
+      "SPSS",
+      "SAS",
+      "Stata",
+      "Minitab",
+      "GraphPad Prism"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web"
+    ],
+    "site": "https://www.jamovi.org",
+    "repository": "https://github.com/jamovi/jamovi",
+    "tags": [
+      "estatistica",
+      "spss",
+      "ciencia de dados",
+      "pesquisa",
+      "r",
+      "bioestatistica",
+      "psicologia",
+      "universidade"
+    ]
+  },
+  {
+    "id": "anki",
+    "name": "Anki",
+    "description": "Sistema inteligente de cartões de memorização (flashcards) com repetição espaçada para estudos.",
+    "category": "outros",
+    "replaces": [
+      "Quizlet Plus",
+      "Brainscape",
+      "Memrise",
+      "Duolingo Super",
+      "Cram"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://apps.ankiweb.net",
+    "repository": "https://github.com/ankitects/anki",
+    "tags": [
+      "flashcards",
+      "memorizacao",
+      "repeticao espacada",
+      "estudos",
+      "idiomas",
+      "concursos",
+      "vestibular",
+      "medicina"
+    ]
+  },
+  {
+    "id": "home-assistant",
+    "name": "Home Assistant",
+    "description": "Plataforma de automação residencial (casa inteligente) com controle local e milhares de integrações.",
+    "category": "outros",
+    "replaces": [
+      "Amazon Alexa",
+      "Google Home",
+      "Apple HomeKit",
+      "Samsung SmartThings",
+      "Tuya Smart",
+      "Hubitat"
+    ],
+    "license": "Apache-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://www.home-assistant.io",
+    "repository": "https://github.com/home-assistant/core",
+    "tags": [
+      "casa inteligente",
+      "smart home",
+      "automacao residencial",
+      "iot",
+      "zigbee",
+      "matter",
+      "alexa",
+      "domotica",
+      "self-hosted"
+    ]
+  },
+  {
+    "id": "proxmox-ve",
+    "name": "Proxmox VE",
+    "description": "Plataforma completa de virtualização de servidores para máquinas virtuais KVM e containers LXC.",
+    "category": "outros",
+    "replaces": [
+      "VMware vSphere",
+      "VMware ESXi",
+      "Microsoft Hyper-V",
+      "Citrix Hypervisor",
+      "Nutanix AHV"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "site": "https://www.proxmox.com",
+    "repository": "https://git.proxmox.com",
+    "tags": [
+      "virtualizacao",
+      "hypervisor",
+      "vmware",
+      "esxi",
+      "kvm",
+      "lxc",
+      "homelab",
+      "servidor",
+      "cluster"
+    ]
+  },
+  {
+    "id": "virtualbox",
+    "name": "VirtualBox",
+    "description": "Virtualizador para rodar múltiplos sistemas operacionais (Windows, Linux) em máquinas virtuais no PC.",
+    "category": "outros",
+    "replaces": [
+      "VMware Workstation Pro",
+      "Parallels Desktop",
+      "VMware Fusion"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://www.virtualbox.org",
+    "repository": "https://www.virtualbox.org/svn/vbox",
+    "tags": [
+      "maquina virtual",
+      "vm",
+      "virtualizacao",
+      "vmware",
+      "iso",
+      "testar sistemas",
+      "linux no windows"
+    ]
+  },
+  {
+    "id": "retroarch",
+    "name": "RetroArch",
+    "description": "Interface unificada para emuladores e motores de jogos clássicos com shaders, conquistas e netplay.",
+    "category": "outros",
+    "replaces": [
+      "LaunchBox Big Box",
+      "Nintendo Switch Online Classics",
+      "Antstream Arcade"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://www.retroarch.com",
+    "repository": "https://github.com/libretro/RetroArch",
+    "tags": [
+      "emulador",
+      "retrogaming",
+      "jogos classicos",
+      "fliperama",
+      "libretro",
+      "consoles",
+      "shaders"
+    ]
+  },
+  {
+    "id": "heroic",
+    "name": "Heroic Games Launcher",
+    "description": "Launcher aberto e leve para jogar títulos da Epic Games, GOG e Amazon Prime Gaming no PC e Linux.",
+    "category": "outros",
+    "replaces": [
+      "Epic Games Launcher",
+      "GOG Galaxy",
+      "Amazon Games App"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://heroicgameslauncher.com",
+    "repository": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+    "tags": [
+      "jogos",
+      "launcher de jogos",
+      "epic games",
+      "gog",
+      "steam deck",
+      "wine",
+      "proton",
+      "gamer"
+    ]
+  },
+  {
+    "id": "playnite",
+    "name": "Playnite",
+    "description": "Gerenciador de biblioteca que unifica jogos da Steam, Epic, GOG, Xbox e emuladores em uma única tela.",
+    "category": "outros",
+    "replaces": [
+      "GOG Galaxy",
+      "LaunchBox",
+      "Razer Cortex",
+      "Armoury Crate Game Library"
+    ],
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "site": "https://playnite.link",
+    "repository": "https://github.com/JosefNemec/Playnite",
+    "tags": [
+      "biblioteca de jogos",
+      "launcher",
+      "steam",
+      "console mode",
+      "emuladores",
+      "tempo de jogo",
+      "gamer"
+    ]
+  },
+  {
+    "id": "prism-launcher",
+    "name": "Prism Launcher",
+    "description": "Inicializador leve para gerenciar múltiplas instâncias, versões e pacotes de mods do Minecraft.",
+    "category": "outros",
+    "replaces": [
+      "CurseForge App",
+      "Lunar Client",
+      "Badlion Client",
+      "Feather Client",
+      "Minecraft Launcher Oficial"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://prismlauncher.org",
+    "repository": "https://github.com/PrismLauncher/PrismLauncher",
+    "tags": [
+      "minecraft",
+      "modpacks",
+      "mods",
+      "curseforge",
+      "modrinth",
+      "launcher",
+      "java"
+    ]
+  },
+  {
+    "id": "stellarium",
+    "name": "Stellarium",
+    "description": "Planetário 3D realista que simula o céu noturno, estrelas, planetas, constelações e telescópios.",
+    "category": "outros",
+    "replaces": [
+      "Star Walk 2",
+      "SkySafari Pro",
+      "Starry Night",
+      "SkyView"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://stellarium.org",
+    "repository": "https://github.com/Stellarium/stellarium",
+    "tags": [
+      "astronomia",
+      "planetario",
+      "estrelas",
+      "espaco",
+      "telescopio",
+      "ciencia",
+      "educacao"
+    ]
+  },
+  {
+    "id": "moodle",
+    "name": "Moodle",
+    "description": "Plataforma de ensino a distância (LMS) completa para criar cursos online, provas e salas virtuais.",
+    "category": "outros",
+    "replaces": [
+      "Blackboard Learn",
+      "Canvas LMS",
+      "Google Classroom",
+      "Hotmart Club",
+      "Kajabi",
+      "Teachable"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://moodle.org",
+    "repository": "https://github.com/moodle/moodle",
+    "tags": [
+      "ead",
+      "lms",
+      "educacao",
+      "cursos online",
+      "escola",
+      "universidade",
+      "aulas",
+      "aprendizagem"
+    ]
+  },
+  {
+    "id": "pcsx2",
+    "name": "PCSX2",
+    "description": "Emulador de PlayStation 2 com suporte a resolução 4K, widescreen, texturas HD, save states e conquistas.",
+    "category": "outros",
+    "replaces": [
+      "PlayStation Plus Classics",
+      "Console PS2 Original"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://pcsx2.net",
+    "repository": "https://github.com/PCSX2/pcsx2",
+    "tags": [
+      "emulador",
+      "ps2",
+      "playstation 2",
+      "jogos",
+      "retrogaming",
+      "4k",
+      "conquistas"
+    ]
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin Emulator",
+    "description": "Emulador de Nintendo GameCube e Wii com gráficos em alta definição (4K), controles modernos e netplay.",
+    "category": "outros",
+    "replaces": [
+      "Nintendo Switch Online Expansion Pack",
+      "Consoles GameCube / Wii"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "site": "https://dolphin-emu.org",
+    "repository": "https://github.com/dolphin-emu/dolphin",
+    "tags": [
+      "emulador",
+      "gamecube",
+      "wii",
+      "nintendo",
+      "jogos",
+      "retrogaming",
+      "multiplayer"
+    ]
+  },
+  {
+    "id": "ppsspp",
+    "name": "PPSSPP",
+    "description": "Emulador rápido e portátil de Sony PSP capaz de rodar jogos em Full HD/4K no PC e no celular.",
+    "category": "outros",
+    "replaces": [
+      "PlayStation Plus Classics",
+      "Console Sony PSP"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://www.ppsspp.org",
+    "repository": "https://github.com/hrydgard/ppsspp",
+    "tags": [
+      "emulador",
+      "psp",
+      "playstation portable",
+      "jogos",
+      "android",
+      "retrogaming"
+    ]
+  },
+  {
+    "id": "luanti",
+    "name": "Luanti (Minetest)",
+    "description": "Motor de jogos voxel de mundo aberto e plataforma de criação de jogos estilo blocos com mods em Lua.",
+    "category": "outros",
+    "replaces": [
+      "Minecraft",
+      "Roblox",
+      "Lego Worlds"
+    ],
+    "license": "LGPL-2.1",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "site": "https://www.luanti.org",
+    "repository": "https://github.com/luanti-org/luanti",
+    "tags": [
+      "minecraft",
+      "voxel",
+      "sandbox",
+      "jogos",
+      "multiplayer",
+      "mods",
+      "minetest",
+      "mundo aberto"
+    ]
+  },
+  {
+    "id": "lichess",
+    "name": "Lichess",
+    "description": "Plataforma de xadrez online 100% gratuita, sem anúncios, com torneios, problemas e análise Stockfish.",
+    "category": "outros",
+    "replaces": [
+      "Chess.com Diamond",
+      "ChessBase",
+      "Fritz",
+      "Play Magnus"
+    ],
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Web",
+      "Android",
+      "iOS"
+    ],
+    "site": "https://lichess.org",
+    "repository": "https://github.com/lichess-org/lila",
+    "tags": [
+      "xadrez",
+      "chess",
+      "jogos de tabuleiro",
+      "stockfish",
+      "torneios",
+      "quebra-cabecas",
+      "sem anuncios"
+    ]
+  },
+  {
+    "id": "wxmaxima",
+    "name": "Maxima (wxMaxima)",
+    "description": "Sistema de álgebra computacional (CAS) para resolver equações simbólicas, derivadas, integrais e matrizes.",
+    "category": "outros",
+    "replaces": [
+      "Wolfram Mathematica",
+      "WolframAlpha Pro",
+      "Maple",
+      "Symbolab Pro",
+      "Mathway"
+    ],
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://wxmaxima-developers.github.io/wxmaxima",
+    "repository": "https://github.com/wxMaxima-developers/wxmaxima",
+    "tags": [
+      "matematica",
+      "calculo",
+      "algebra",
+      "derivadas",
+      "integrais",
+      "equacoes",
+      "engenharia",
+      "universidade"
+    ]
+  },
+  {
+    "id": "librepcb",
+    "name": "LibrePCB",
+    "description": "Software de automação de design eletrônico (EDA) intuitivo para criar esquemáticos e placas PCB.",
+    "category": "outros",
+    "replaces": [
+      "Autodesk Eagle",
+      "EasyEDA Pro",
+      "Altium Designer",
+      "DipTrace"
+    ],
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "site": "https://librepcb.org",
+    "repository": "https://github.com/LibrePCB/LibrePCB",
+    "tags": [
+      "pcb",
+      "eletronica",
+      "circuito impresso",
+      "eda",
+      "esquematico",
+      "hardware",
+      "engenharia"
     ]
   }
 ]
